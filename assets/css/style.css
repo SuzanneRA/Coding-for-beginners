@@ -7,3 +7,16 @@ body {
 h1, h2 {
     font-family: Cinzel, sans-serif;
 }
+
+/*nav section */
+#menu {
+    list-style-type: none;
+    font-size: 150%;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
