@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Play&display=swap');
+
 body {
-    font-family: Arial;
-    font-size: 200%;
+    font-family: Play, sans-serif;
+}
+
+h1, h2 {
+    font-family: Cinzel, sans-serif;
 }
