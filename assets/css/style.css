@@ -6,7 +6,7 @@
 }
 body {
     font-family: Play, sans-serif;
-    color: DFD7D5;
+    color: #DFD7D5;
 }
 
 /* heading section on Home page*/
@@ -19,9 +19,20 @@ h1, h2 {
 /*nav section */
 #menu {
     list-style-type: none;
+    font-family: Cinzel, sans-serif;
+    font-weight: bold;
     font-size: 150%;
+    letter-spacing: 2px; 
 }
 
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-left: 2px solid #DFD7D5;
+}
 nav ul {
     display: flex;
     align-items: center;
