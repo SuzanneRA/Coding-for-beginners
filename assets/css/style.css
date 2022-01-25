@@ -25,6 +25,8 @@ h1, h2 {
     font-size: 150%;
     letter-spacing: 2px; 
     line-height: 150px;
+    display: flex;
+    
 }
 
 #menu a {
@@ -44,14 +46,15 @@ nav ul {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-flow: row-wrap;
 }
 
 /* rolling images */
 
 #rolling-images {
-    height: 600px;
-    width: 100%;
-    background: url('../images/woman-table.webp') no repeat;
-
+    background: url('../images/woman-table.webp') no-repeat center;
+    background-size: 100%;
+    width: contain;
+    height: 1000px;
 }
 
