@@ -38,12 +38,20 @@ h1, h2 {
 
 .active {
     border-left: 2px solid #5c5a58
-
 }
 
 nav ul {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+/* rolling images */
+
+#rolling-images {
+    height: 600px;
+    width: 100%;
+    background: url('../images/Woman-table.jpeg') no repeat;
+
 }
 
