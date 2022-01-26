@@ -9,6 +9,9 @@ body {
     color: #5c5a58;
 }
 
+header {
+    margin: 20px 0;
+}
 /*nav section */
 #menu {
     list-style-type: none;
@@ -41,16 +44,14 @@ nav ul {
 }
 
 
-#cover-text, #cover-text h1, #cover-text h2 {
+#cover-text, #cover-text h1, #cover-text p {
     color: #130633;
 }
 
 #rolling-images {
     background: url('../images/woman-table.webp') no-repeat center;
-    background-size: 100%;
-    width: contain;
-    height: 1000px;
-    display: flex;
+    background-size: cover;
+    height: 300px;
     position: relative;
 }
 
