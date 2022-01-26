@@ -48,14 +48,35 @@ nav ul {
     
 }
 
-/* ----------------------------------- home page */
+/* ----------------------------------- home page image */
 
-#rolling-images {
+#frontimage-outer {
+    height: 300px;
+    overflow: hidden;
+}
+
+#front-image {
     background: url('../images/woman-table.webp') no-repeat center;
     background-size: cover;
     height: 300px;
     position: relative;
+
+    /* animates zoom effect on loading page */
+    animation-name: image-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
+
+@keyframes image-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1)
+    }
+}
+
+/* ----------------------------------- home page text */
 
 #cover-text {
     color: #130633;
