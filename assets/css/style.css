@@ -9,14 +9,6 @@ body {
     color: #5c5a58;
 }
 
-/* heading section on Home page*/
-h1, h2 {
-    font-family: Cinzel, sans-serif;
-    font-size: 150%;
-    letter-spacing: 2px;
-    color: #130633;
-}
-
 /*nav section */
 #menu {
     list-style-type: none;
@@ -48,7 +40,10 @@ nav ul {
     
 }
 
-/* rolling images */
+
+#cover-text, #cover-text h1, #cover-text h2 {
+    color: #130633;
+}
 
 #rolling-images {
     background: url('../images/woman-table.webp') no-repeat center;
@@ -56,6 +51,19 @@ nav ul {
     width: contain;
     height: 1000px;
     display: flex;
+    position: relative;
+}
+
+#cover-text {
+    font-family: Cinzel, sans-serif;
+    font-size: 100%;
+    letter-spacing: 2px;
+    width: 500px;
+    height: 250px;
+    bottom: 50px;
+    right: 150px;
+    position: absolute;
+
 }
 
 /* media queries screen width>340px */
@@ -64,11 +72,6 @@ nav ul {
     #menu {
         line-height: 30px;
         flex-direction: column;;
-    }
-
-    #rolling-images {
-    
-    }
-    
+    }  
 }
 
