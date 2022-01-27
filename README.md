@@ -2,3 +2,4 @@
 <h2>Used www.https://htmlcolorcodes.com for Hex colors</h2>
 
 <h2>Used www.pexels.com for photos on Home page</h2>
+<h3>Used MDN for general help</h3>
