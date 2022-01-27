@@ -85,11 +85,11 @@ nav ul {
 }
 
 h1 {
-    margin: 15px 0;
+    margin: 20px 0;
 }
 
 #cover-text p {
-    padding: 0 6px;
+    padding: inherit;
 }
 
 /* ------------------------------------footer section */
