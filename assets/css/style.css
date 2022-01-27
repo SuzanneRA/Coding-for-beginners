@@ -50,8 +50,7 @@ nav ul {
 
 /* ----------------------------------- home page image */
 
-#frontimage-outer {
-    height: 300px;
+#frontimage-container {
     overflow: hidden;
 }
 
@@ -59,7 +58,6 @@ nav ul {
     background: url('../images/woman-table.webp') no-repeat center;
     background-size: cover;
     height: 300px;
-    position: relative;
 
     /* animates zoom effect on loading page */
     animation-name: image-zoom;
@@ -87,7 +85,7 @@ nav ul {
 }
 
 h1 {
-    margin-bottom: 10px;
+    margin: 15px 0;
 }
 
 #cover-text p {
