@@ -92,6 +92,13 @@ h1 {
     padding: 0 6px;
 }
 
+/* ------------------------------------footer section */
+
+footer {
+    background-color: #5c5a58;
+    height: 75px;
+    color: #F9F6F0;
+}
 /* ----------------------------------- media queries screen width>340px */
 
 @media  screen and (min-width: 340px) {
