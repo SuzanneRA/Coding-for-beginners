@@ -114,6 +114,21 @@ nav ul {
     padding: inherit;
 }
 
+#fade-text {
+    visibility: hidden;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity: 1s;
+    opacity: 0;
+}
+
+#front-image:hover #fade-text {
+    visibility: visible;
+    transition: 0.75s ease-in;
+    opacity: 1;
+}
+
 /* ------------------------------------footer section */
 
 footer {
