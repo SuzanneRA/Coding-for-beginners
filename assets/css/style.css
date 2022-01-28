@@ -15,18 +15,27 @@ header {
     margin: 20px 0;
 }
 
+h1 {
+    font-family: Cinzel, sans-serif;
+    margin: 20px 20px;
+    text-align: center;
+    font-size: 150%;
+    text-decoration: underline;
+    
+}
+
 /* -------------------------------------- nav section */
 
 #menu {
     list-style-type: none;
     font-family: Cinzel, sans-serif;
     font-weight: bold;
-    font-size: 150%;
+    font-size: 100%;
     letter-spacing: 2px; 
     display: flex;
     justify-content: space-around;
-    line-height: 30px;
-    flex-direction: column;;
+    line-height: 20px;
+    flex-direction: column;
 }
 
 #menu a {
@@ -52,6 +61,7 @@ nav ul {
 
 #frontimage-container {
     overflow: hidden;
+    position: relative;
 }
 
 #front-image {
@@ -80,12 +90,12 @@ nav ul {
     color: #130633;
     text-align: center;
     font-family: Cinzel, sans-serif;
+    font-size: 90%;
     letter-spacing: 2px;
     padding: 10px;
-}
-
-h1 {
-    margin: 20px 0;
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
 
 #cover-text p {
@@ -98,7 +108,6 @@ footer {
     background-color: #5c5a58;
     height: 75px;
     color: #F9F6F0;
-    font-size: 75%;
     text-align: center;
 
     position: fixed;
