@@ -12,18 +12,29 @@ body {
 }
 
 header {
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 h1 {
     font-family: Cinzel, sans-serif;
-    margin: 20px 20px;
-    text-align: center;
-    font-size: 150%;
-    text-decoration: underline;
-    
+    color: #F9F6F0;
+    letter-spacing: 2px;
+    font-size: 125%;   
 }
+#title-container {
+    position: absolute;
+    text-align: center;
+    top: 20px;
+    left: 20px;
+}
+#header-image {
+    background: url('../images/flower.webp') no-repeat;
+    background-size: cover;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
 
+}
 /* -------------------------------------- nav section */
 
 #menu {
