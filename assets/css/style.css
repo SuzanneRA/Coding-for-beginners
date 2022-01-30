@@ -41,10 +41,9 @@ h1 {
     list-style-type: none;
     font-family: Cinzel, sans-serif;
     font-weight: bold;
-    font-size: 100%;
+    font-size: 75%;
     letter-spacing: 2px; 
     display: flex;
-    justify-content: space-around;
     line-height: 20px;
     flex-direction: column;
     padding-top: 10px;
@@ -154,13 +153,11 @@ footer {
     overflow: hidden;
 }
 
-/* Start of The Set-up page */
-
+/* -------------------------------------Start of The Set-up page */
 #setup {
-    margin-left: 20px;
-    margin-right: 20px;
+    background: url('../images/lily.webp');
+    margin: 10px;
 }
-
 h2 {
     font-family: Cinzel, sans-serif;
     font-size: 125%;
