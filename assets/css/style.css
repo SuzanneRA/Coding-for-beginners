@@ -154,6 +154,20 @@ footer {
     overflow: hidden;
 }
 
+/* Start of The Set-up page */
+
+#setup {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h2 {
+    font-family: Cinzel, sans-serif;
+    font-size: 125%;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+
 /* ----------------------------------- media queries screen width>340px */
 
 @media  screen and (min-width: 340px) {
