@@ -154,7 +154,7 @@ footer {
     overflow: hidden;
 }
 
-/* -------------------------------------Start of The Set-up page */
+/* -------------------------------------start of The Set-up page */
 #setup {
     background-color: rgb(232,232,232);
     width: 100%;
@@ -192,6 +192,9 @@ h2 {
     height: 175px;
     width: 100%;
 }
+
+/* ----------------------------------- end of the Set-up Page*/
+
 /* ----------------------------------- media queries screen width>340px */
 
 @media  screen and (min-width: 340px) {
