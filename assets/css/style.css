@@ -74,6 +74,7 @@ nav ul {
 #frontimage-container {
     overflow: hidden;
     position: relative;
+    width: 100%;
 }
 
 #front-image {
@@ -115,10 +116,13 @@ nav ul {
 }
 
 #fade-text {
+    text-align: center;
+    font-size: 110%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    background-color: rgb(235, 146, 88, .7);
     visibility: hidden;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
     opacity: 1s;
     opacity: 0;
 }
@@ -132,16 +136,24 @@ nav ul {
 /* ------------------------------------footer section */
 
 footer {
-    background-color: #5c5a58;
-    height: 75px;
+    height: 50px;
     color: #F9F6F0;
     text-align: center;
-
+    font-size: 75%;
     position: fixed;
     width: 100%;
     left: 0;
     bottom: 0;
 }
+
+#footer-image {
+    background: url('../images/flower.webp') no-repeat;
+    background-size: cover;
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
 /* ----------------------------------- media queries screen width>340px */
 
 @media  screen and (min-width: 340px) {
