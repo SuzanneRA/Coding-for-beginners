@@ -158,7 +158,7 @@ footer {
 #setup {
     background-color: rgb(232,232,232);
     width: 100%;
-    height: 1600px;
+    height: 2500x;
     display: flex;
     flex-direction: column;
 
@@ -176,9 +176,22 @@ h2 {
     height: 33%;
     padding: 10px 25px;
     border: 10px solid #F9F6F0;
-
 }
 
+.workspace-image {
+    height: 175px;
+    width: 100%;
+}
+
+.computer-image {
+    height: 175px;
+    width: 100%;
+}
+
+.plant-image {
+    height: 175px;
+    width: 100%;
+}
 /* ----------------------------------- media queries screen width>340px */
 
 @media  screen and (min-width: 340px) {
