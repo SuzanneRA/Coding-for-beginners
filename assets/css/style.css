@@ -193,7 +193,36 @@ h2 {
     width: 100%;
 }
 
-/* ----------------------------------- end of the Set-up Page*/
+/* ----------------------------------- end of the set-up page */
+
+/* ----------------------------------- start of the course page */
+
+#course {
+    background-color: rgb(232,232,232);
+    width: 100%;
+    height: 2500x;
+    display: flex;
+    flex-direction: column;
+
+}
+h2 {
+    font-family: Cinzel, sans-serif;
+    font-size: 125%;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+
+#course div {
+    color: #5c5a58;
+    padding: 20px;
+    height: 33%;
+    padding: 10px 25px;
+    border: 10px solid #F9F6F0;
+}
+
+
+
+/* ----------------------------------- end of the course page */
 
 /* ----------------------------------- media queries screen width>340px */
 
