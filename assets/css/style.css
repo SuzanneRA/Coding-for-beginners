@@ -220,8 +220,20 @@ h2 {
     border: 10px solid #F9F6F0;
 }
 
+.cost-image {
+    height: 175px;
+    width: 100%;
+}
 
+.package-image {
+    height: 175px;
+    width: 100%;
+}
 
+.study-image {
+    height: 175px;
+    width: 100%;
+}
 /* ----------------------------------- end of the course page */
 
 /* ----------------------------------- media queries screen width>340px */
