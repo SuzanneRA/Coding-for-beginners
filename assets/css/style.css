@@ -11,13 +11,9 @@ body {
     background-color: #F9F6F0;
 }
 
-header {
-    margin: 10px 0;
-}
-
 h1 {
     font-family: Cinzel, sans-serif;
-    color: #F9F6F0;
+    color: #5c5a58;
     letter-spacing: 2px;
     font-size: 125%;   
 }
@@ -28,7 +24,7 @@ h1 {
     left: 20px;
 }
 #header-image {
-    background: url('../images/flower.webp') no-repeat;
+    background: url('../images/whiteflower.webp') no-repeat;
     background-size: cover;
     height: 100px;
     position: relative;
@@ -147,7 +143,7 @@ footer {
 }
 
 #footer-image {
-    background: url('../images/flower.webp') no-repeat;
+    background: url('../images/whiteflower.webp') no-repeat;
     background-size: cover;
     height: 50px;
     position: relative;
