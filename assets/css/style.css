@@ -67,7 +67,11 @@ h2 {
 }
 
 .active {
-    border-left: 2px solid #5c5a58
+    border-left: 2px solid #5c5a58;
+    border-right: 2px solid #5c5a58;
+    color: #5c5a58 !important;
+    font-weight: 700;
+    padding-left: 2px;
 }
 
 nav ul {
