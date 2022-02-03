@@ -29,6 +29,10 @@ h2 {
     font-size: 1.4rem;
 }
 
+.copy-body p {
+    margin-top: 1.1rem;
+}
+
 #title-container {
     position: absolute;
     text-align: center;
