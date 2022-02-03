@@ -14,8 +14,7 @@ body {
 h1 {
     font-family: Cinzel, sans-serif;
     color: #5c5a58;
-    letter-spacing: 2px;
-    font-size: 125%;   
+    font-size: 1.4rem;   
 }
 
 h2 {
@@ -25,7 +24,7 @@ h2 {
     letter-spacing: 2px;
 }
 
-p {
+.copy-body {
     line-height: 2.2rem;
     font-size: 1.4rem;
 }
