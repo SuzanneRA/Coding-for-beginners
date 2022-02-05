@@ -155,7 +155,7 @@ footer {
     height: 50px;
     color: #5c5a58;
     text-align: center;
-    font-size: 75%;
+    font-size: 95%;
     position: fixed;
     width: 100%;
     left: 0;
@@ -264,6 +264,15 @@ footer {
     width: 100%;
 }
 
+.group-image {
+    height: 350px;
+    width: 100%;
+}
+
+.wave-image {
+    height: 350px;
+    width: 100%;
+}
 /* ----------------------------------- end of the community page */
 
 /* ----------------------------------- media queries screen width>340px */
