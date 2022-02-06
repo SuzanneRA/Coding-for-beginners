@@ -11,6 +11,17 @@ body {
     background-color: #F9F6F0;
 }
 
+header {
+    position: fixed;
+    height: 210px;
+    width: 100%;
+    background-color: #F9F6F0;
+}
+
+.main-container {
+    padding-top: 210px;
+}
+
 h1 {
     font-family: Cinzel, sans-serif;
     color: #5c5a58;
