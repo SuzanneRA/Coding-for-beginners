@@ -301,19 +301,20 @@ footer {
 #error-image {
     background: url('../images/meditate.webp') no-repeat center;
     background-size: cover;
-    height: 500px;
+    height: 1000px;
 }
 
 #over-text {
         color: #F9F6F0;
         text-align: right;
         font-family: Cinzel, sans-serif;
-        font-size: 150%;
+        font-size: 90%;
         letter-spacing: 2px;
-        padding: 20px;
+        padding: 10px;
         position: absolute;
-        top: 30px;
+        top: 10px;
         right: 10px;
+        bottom: 10px;
         background-color: rgb(249 246 240 / 50%);
     }
     
