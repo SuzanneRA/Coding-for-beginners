@@ -299,7 +299,7 @@ footer {
 }
 
 #error-image {
-    background: url('../images/meditate.webp') no-repeat center;
+    background: url('../images/meditate.webp') no-repeat;
     background-size: cover;
     height: 1000px;
 }
