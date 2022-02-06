@@ -286,9 +286,46 @@ footer {
 }
 /* ----------------------------------- end of the community page */
 
+/* ----------------------------------- start of contact page */
+
+/* ----------------------------------- end of contact page */
+
+/* ----------------------------------- start of 404 page */
+
+#errorimage-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+#error-image {
+    background: url('../images/meditate.webp') no-repeat center;
+    background-size: cover;
+    height: 500px;
+}
+
+#over-text {
+        color: #F9F6F0;
+        text-align: right;
+        font-family: Cinzel, sans-serif;
+        font-size: 150%;
+        letter-spacing: 2px;
+        padding: 20px;
+        position: absolute;
+        top: 30px;
+        right: 10px;
+        background-color: rgb(249 246 240 / 50%);
+    }
+    
+#over-text p {
+        padding: inherit;
+    }
+
+
+/* ----------------------------------- end of 404 page */
+
 /* ----------------------------------- media queries screen width>340px */
 
 @media  screen and (min-width: 340px) {
 
 } 
-
