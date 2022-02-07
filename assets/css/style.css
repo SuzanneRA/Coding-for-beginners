@@ -270,13 +270,21 @@ footer {
     border: 10px solid #F9F6F0;
 }
 
-.google-image {
-    height: 175px;
+/*CSS to make the embedded YouTube video responsive adopted from https://www.youtube.com/watch?v=QZCR69444DE */
+.youtube-video-div {
+    position: relative;
     width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    margin: 1.2rem auto;
 }
 
-.group-image {
-    height: 350px;
+.youtube-video-div iframe-1 {
+    position: absolute;
+}
+
+.google-image {
+    height: 175px;
     width: 100%;
 }
 
@@ -319,7 +327,6 @@ footer {
 #over-text p {
         padding: inherit;
     }
-
 
 /* ----------------------------------- end of 404 page */
 
