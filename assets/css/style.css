@@ -270,17 +270,17 @@ footer {
     border: 10px solid #F9F6F0;
 }
 
-/*CSS to make the embedded YouTube video responsive adopted from https://www.youtube.com/watch?v=QZCR69444DE */
+/*CSS to make the embedded YouTube video responsive adopted from https://www.youtube.com/QZCR69444DE */
 .youtube-video-div {
     position: relative;
-    width: 100%;
-    padding-bottom: 56.25%;
-    height: 0;
     margin: 1.2rem auto;
+    padding: 10px;
 }
 
 .youtube-video-div iframe-1 {
     position: absolute;
+    width: 100%;
+    height: 350px;
 }
 
 .google-image {
