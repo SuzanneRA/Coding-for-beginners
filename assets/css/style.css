@@ -296,6 +296,19 @@ footer {
 
 /* ----------------------------------- start of contact page */
 
+
+#contactimage-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+   
+#contact-image {
+    background: url('../images/meditate.webp') no-repeat left;
+    background-size: cover;
+    height: 500px;
+}
+
 /* ----------------------------------- end of contact page */
 
 /* ----------------------------------- start of 404 page */
