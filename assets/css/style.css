@@ -16,6 +16,7 @@ header {
     height: 210px;
     width: 100%;
     background-color: #F9F6F0;
+    z-index: 10;
 }
 
 .main-container {
@@ -304,7 +305,7 @@ footer {
 }
    
 #contact-image {
-    background: url('../images/meditate.webp') no-repeat left;
+    background: url('../images/meditate.webp') no-repeat;
     background-size: cover;
     height: 500px;
 }
