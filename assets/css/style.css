@@ -302,12 +302,16 @@ footer {
     overflow: hidden;
     position: relative;
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
    
 #contact-image {
-    background: url('../images/meditate.webp') no-repeat;
-    background-size: cover;
-    height: 500px;
+    background: url('../images/meditate.webp') center center no-repeat;
+    background-size: contain;
+    height: 250px;
+    max-width: 100%;   
+    
 }
 
 /* ----------------------------------- end of contact page */
