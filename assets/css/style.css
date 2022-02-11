@@ -319,10 +319,10 @@ footer {
     background-color: #F9F6F0;
     color: #5c5a58;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     padding: 0;
     border: 0;
-    display: flex;
+    flex-direction: column;
 }
 
 #contact-form h3 {
@@ -330,19 +330,15 @@ footer {
     text-align: center;
 }
 
- #center-form-wrapper {
-    height: 500px;
+#center-form-wrapper {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
-    
  }
 
- #form {
+ #form-input {
     width: 100%;
-    padding: 6px;
-    border-radius: 5px 5px;
+    padding: 10px;
 }
 
 form textarea {
