@@ -311,9 +311,11 @@ footer {
     background-size: contain;
     height: 250px;
     max-width: 100%;   
-    
 }
 
+#contact-form {
+    padding: 0;
+}
 /* ----------------------------------- end of contact page */
 
 /* ----------------------------------- start of 404 page */
