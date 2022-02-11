@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,9 +19,9 @@
 
     <title>Contact Us</title>
 </head>
-
 <body>
     <header>
+        <!-- image section of header -->
         <div class="copy-body" id="header-image">
             <div id="title-container">
                 <h1>
@@ -32,6 +31,7 @@
                 </h1>
             </div>
         </div>
+        <!-- menu section of header -->
         <nav>
             <ul id="menu">
                 <li>
@@ -52,13 +52,16 @@
             </ul>
         </nav>
     </header>
+    <!-- image section -->
     <section class="main-container" id="contactimage-container">
         <div id="contact-image"></div>
     </section>
+    <!-- contact form section -->
     <section>
         <div id="contact-form">
             <h3>Please get in touch if you have your own suggestions</h3>
             <form id="center-form-wrapper">
+                <!-- text input section of form -->
                 <div>
                     <input type="text" id="name-sign-up" placeholder="Name" name="fullname" required>
                     <br>
@@ -71,24 +74,29 @@
                     <textarea rows="10" id="text-area" placeholder="Suggestion" required></textarea>
                     <br>
                 </div>
+                <!-- check box section of form -->
                 <div>
-                    <input type="checkbox" id="contact-permission" required>
-                    <label for="contact-permission" class="user-permission">
+                    <input type="checkbox" required>
+                    <label for="contact-permission">
                         "I consent to receiving promotional emails from The Code Institute"
                     </label>
                 </div>
+                <!-- button section of form -->
                 <button type="submit" class="button">Send</button>
             </form>
         </div>
     </section>
+    <!-- footer section -->
     <footer id="footer-image">
+        <!-- copyright info of footer -->
         <p>Copyright: 2021 Coding for Beginners - A Holistic Approach</p>
+        <!-- LinkedIn detail of footer -->
         <span>S Ashford <a href="https://www.linkedin.com/in/suzanne-ashford-0a49161aa/" target="_blank" rel="noopener"
                 aria-label="Linked in Profile (opens in new tab)" title="S Ashford LinkedIn"><i
                     class="fab fa-linkedin"></i></a></span>
     </footer>
+    <!-- font awesome -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/all.min.js" crossorigin="anonymous">
     </script>
 </body>
-
 </html>
