@@ -3,7 +3,7 @@
 ## Used www.pexels.com for photos on Home page
 ## Used MDN for general help
 ## Used snippits of text from the answers posed on this site to the question of how to fade in text on an image https://stackoverflow.com/questions/27883032/css-fade-out-picture-and-fade-in-text
-
+## Used contact form code from Anya Hush on her first project Sunrise Yoga - https://github.com/Code-Institute-Submissions/sunrise-yoga
 
 # Deployment 
 1. Go to the depository in Github https://github.com/SuzanneRA/Coding-for-beginners
