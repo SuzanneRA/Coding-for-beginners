@@ -209,21 +209,23 @@ footer {
     height: 33%;
     padding: 10px 25px;
     border: 10px solid #F9F6F0;
+    align-items: flex-start;
+    text-align: center;
 }
 
 .workspace-image {
     height: 175px;
-    width: 100%;
+    width: 250px;
 }
 
 .computer-image {
     height: 175px;
-    width: 100%;
+    width: 250px;
 }
 
 .plant-image {
     height: 175px;
-    width: 100%;
+    width: 250px;
 }
 
 /* end of the set-up page */
@@ -244,6 +246,8 @@ footer {
     height: 33%;
     padding: 10px 25px;
     border: 10px solid #F9F6F0;
+    align-items: flex-start;
+    text-align: center;
 }
 
 .cost-image {
@@ -278,6 +282,8 @@ footer {
     height: 33%;
     padding: 10px 25px;
     border: 10px solid #F9F6F0;
+    align-items: flex-start;
+    text-align: center;
 }
 
 /*CSS to make the embedded YouTube videos responsive adopted from https://www.youtube.com/QZCR69444DE and https://www.youtube.com/embed/pBxeVPMg77g */
@@ -285,12 +291,16 @@ footer {
     position: relative;
     margin: 2px auto;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .youtube-video-div iframe-1 {
     position: absolute;
     width: 100%;
     height: 350px;
+    align-items: flex-start;
+    text-align: center;
 }
 
 .google-image {
@@ -304,17 +314,21 @@ footer {
 
 #contactimage-container {
     overflow: hidden;
-    position: relative;
-    width: 320px;
+    width: 100%;
+    height: 300px;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    text-align: center;  
 }
    
-#contact-image {
-    background: url('../images/meditate.webp') center center no-repeat;
+.contact-image {
+    /*background: /*url('../images/meditate.webp') center center no-repeat;*/
+    overflow: hidden;
     background-size: contain;
     height: 250px;
-    max-width: 100%;   
+    width: 320px;
+    
 }
 
 #contact-form {
