@@ -111,6 +111,7 @@ nav ul {
     background: url('../images/woman-table.webp') no-repeat center;
     background-size: cover;
     height: 300px;
+    margin-top: 20px;
 
     /* animates zoom effect on loading page */
     animation-name: image-zoom;
@@ -438,14 +439,7 @@ form textarea {
 
 /* media queries */
 
-
-/* media queries screen width>340px */
-
-@media screen and (min-width: 340px) and (orientation: portrait) {
-
-} 
-
-/* media queries screen width>500px */
+/* media queries screen min width 500px */
 
 @media screen and (min-width: 500px) and (orientation: portrait) {
     /* all */
@@ -453,7 +447,12 @@ form textarea {
         margin-top: 10px;
     }
 
-     /* setup.html */  
+    /* index.html */
+    #cover-text {
+        margin-left: 10px;
+    }
+
+    /* setup.html */  
     h2 {
         margin-top: 10px;
     }
@@ -511,4 +510,17 @@ form textarea {
         width: 100%;
         object-fit: cover;
     }
+}
+
+/* media queries screen min-width 700px */
+
+@media screen and (min-width: 700px) and (orientation: portrait) {
+    /* all */
+
+
+
+
+
+
+
 }
