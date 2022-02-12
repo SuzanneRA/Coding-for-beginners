@@ -556,10 +556,12 @@ form textarea {
     }
 
     .youtube-video-div {
-        flex-direction: row;
+        width: 350px;
+        /*flex-direction: row;*/
     }
 
     .youtube-video-div iframe-1 {
+        width: 300px;
         
     }
 
