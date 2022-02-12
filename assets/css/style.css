@@ -515,9 +515,6 @@ form textarea {
 /* media queries screen min-width 700px */
 
 @media screen and (min-width: 700px) and (orientation: portrait) {
-    /* all */
-
-
     /* index.html */
     #cover-text {
         margin-right: 10px;
@@ -557,19 +554,18 @@ form textarea {
 
     .youtube-video-div {
         width: 350px;
-        /*flex-direction: row;*/
     }
 
     .youtube-video-div iframe-1 {
-        width: 300px;
-        
+        width: 300px;  
     }
 
+    /* contact.html */
+    .contact-image {
+        height: 500px;
+    }
 
-
-
-
-
-
-
+    #contact-form {
+        margin-top: 300px;
+    }
 }
