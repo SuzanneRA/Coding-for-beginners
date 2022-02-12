@@ -518,6 +518,53 @@ form textarea {
     /* all */
 
 
+    /* index.html */
+    #cover-text {
+        margin-right: 10px;
+        right: 20px;
+    }
+
+    /* setup.html */
+    .workspace-image {
+        width: 50%;
+    }
+
+    .computer-image {
+        width: 50%;
+    }
+
+    .plant-image {
+        width: 50%;
+    }
+
+    /* course.html */
+    .cost-image {
+        width: 50%;
+    }
+
+    .linkedin-image {
+        width: 50%;
+    }
+
+    .study-image {
+        width: 50%;
+    }
+
+    /* community.html */
+    .google-image {
+        width: 50%;
+    }
+
+    .youtube-video-div {
+        flex-direction: row;
+    }
+
+    .youtube-video-div iframe-1 {
+        
+    }
+
+
+
 
 
 
