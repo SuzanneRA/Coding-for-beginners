@@ -496,12 +496,6 @@ form textarea {
     }
 
     /* community.html */
-    .youtube-video-div {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-    
     .youtube-video-div iframe-1 {
         width: 70%;
     }
@@ -513,13 +507,8 @@ form textarea {
     }
 
     /* contact.html */
-    #contactimage-container {
-        width: 500px;
-    }
-
-    #contact-image {
-        height: 300px;
-        margin-top: 20px;
-        background-size: cover;
+    .contact-image {
+        width: 100%;
+        object-fit: cover;
     }
 }
