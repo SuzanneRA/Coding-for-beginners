@@ -298,11 +298,6 @@ footer {
     width: 100%;
 }
 
-.wave-image {
-    height: 350px;
-    width: 100%;
-}
-
 /* end of the community page */
 
 /* start of contact page */
@@ -431,7 +426,97 @@ form textarea {
 
 /* media queries screen width>340px */
 
-@media  screen and (min-width: 340px) {
+@media screen and (min-width: 340px) and (orientation: portrait) {
 
 } 
 
+/* media queries screen width>500px */
+
+@media screen and (min-width: 500px) and (orientation: portrait) {
+    /* all */
+    h2 {
+        margin-top: 10px;
+    }
+
+     /* setup.html */  
+    h2 {
+        margin-top: 10px;
+    }
+
+    .workspace-image {
+        width: 70%;
+        margin: auto;
+        display: block;
+    }
+    
+    .computer-image {
+        width: 70%;
+        margin: auto;
+        display: block;
+    }
+    
+    .plant-image {
+        width: 70%;
+        margin: auto;
+        display: block;
+    }
+
+    /* course.html */
+   .cost-image {
+        width: 70%;
+        margin: auto;
+        display: block;
+    }
+    
+    .linkedin-image {
+        width: 70%;
+        margin: auto;
+        display: block;
+    }
+    
+    .study-image {
+        width: 70%;
+        margin: auto;
+        display: block;
+    }
+
+    /* community.html */
+    .youtube-video-div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .youtube-video-div iframe-1 {
+        width: 70%;
+    }
+    
+    .google-image {
+        width: 70%;
+        margin: auto;
+        display: block;
+    }
+
+    /* contact.html */
+    #contact-image {
+        height: 300px;
+    }
+
+    /*
+    #contactimage-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+   
+#contact-image {
+    background: url('../images/meditate.webp') center center no-repeat;
+    background-size: contain;
+    height: 250px;
+    max-width: 100%;   
+}
+*/
+
+}
