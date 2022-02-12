@@ -305,7 +305,7 @@ footer {
 #contactimage-container {
     overflow: hidden;
     position: relative;
-    width: 100%;
+    width: 320px;
     display: flex;
     flex-direction: column;
 }
@@ -498,25 +498,13 @@ form textarea {
     }
 
     /* contact.html */
-    #contact-image {
-        height: 300px;
+    #contactimage-container {
+        width: 500px;
     }
 
-    /*
-    #contactimage-container {
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-   
-#contact-image {
-    background: url('../images/meditate.webp') center center no-repeat;
-    background-size: contain;
-    height: 250px;
-    max-width: 100%;   
-}
-*/
-
+    #contact-image {
+        height: 300px;
+        margin-top: 20px;
+        background-size: cover;
+    }
 }
