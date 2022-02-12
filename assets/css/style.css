@@ -252,17 +252,17 @@ footer {
 
 .cost-image {
     height: 175px;
-    width: 100%;
+    width: 250px;
 }
 
 .linkedin-image {
     height: 175px;
-    width: 100%;
+    width: 250px;
 }
 
 .study-image {
     height: 175px;
-    width: 100%;
+    width: 250px;
 }
 /* end of the course page */
 
@@ -288,6 +288,7 @@ footer {
 
 /*CSS to make the embedded YouTube videos responsive adopted from https://www.youtube.com/QZCR69444DE and https://www.youtube.com/embed/pBxeVPMg77g */
 .youtube-video-div {
+    width: 250px;
     position: relative;
     margin: 2px auto;
     padding: 10px;
@@ -305,7 +306,7 @@ footer {
 
 .google-image {
     height: 175px;
-    width: 100%;
+    width: 250px;
 }
 
 /* end of the community page */
