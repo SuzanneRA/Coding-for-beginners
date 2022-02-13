@@ -437,7 +437,7 @@ form textarea {
 
 /*  end of 404 page */
 
-/* media queries */
+/* start of media queries */
 
 /* media queries screen min width 500px */
 
@@ -458,57 +458,51 @@ form textarea {
     }
 
     .workspace-image {
-        width: 70%;
         margin: auto;
         display: block;
     }
     
     .computer-image {
-        width: 70%;
         margin: auto;
         display: block;
     }
     
     .plant-image {
-        width: 70%;
         margin: auto;
         display: block;
     }
 
     /* course.html */
    .cost-image {
-        width: 70%;
         margin: auto;
         display: block;
     }
     
     .linkedin-image {
-        width: 70%;
         margin: auto;
         display: block;
     }
     
     .study-image {
-        width: 70%;
         margin: auto;
         display: block;
     }
 
     /* community.html */
-    .youtube-video-div iframe-1 {
-        width: 70%;
+    .youtube-video-div {
+        width: 350px;
     }
-    
+       
     .google-image {
-        width: 70%;
         margin: auto;
         display: block;
     }
 
     /* contact.html */
     .contact-image {
-        width: 100%;
-        object-fit: cover;
+        object-fit: contain;
+        margin: auto;
+        display: block;
     }
 }
 
@@ -524,32 +518,46 @@ form textarea {
     /* setup.html */
     .workspace-image {
         width: 50%;
+        margin: auto;
+        display: block;
     }
 
     .computer-image {
         width: 50%;
+        margin: auto;
+        display: block;
     }
 
     .plant-image {
         width: 50%;
+        margin: auto;
+        display: block;
     }
 
     /* course.html */
     .cost-image {
         width: 50%;
+        margin: auto;
+        display: block;
     }
 
     .linkedin-image {
         width: 50%;
+        margin: auto;
+        display: block;
     }
 
     .study-image {
         width: 50%;
+        margin: auto;
+        display: block;
     }
 
     /* community.html */
     .google-image {
         width: 50%;
+        margin: auto;
+        display: block;
     }
 
     .youtube-video-div {
@@ -563,6 +571,7 @@ form textarea {
     /* contact.html */
     .contact-image {
         height: 500px;
+
     }
 
     #contact-form {
