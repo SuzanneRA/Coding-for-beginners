@@ -599,7 +599,7 @@ form textarea {
 
     #cover-text p {
         font-size: 120%;
-        padding-left: 250px;
+        padding-top: 25px;  
     }
 
     #fade-text p {
@@ -626,6 +626,12 @@ form textarea {
     #youtube-flex {
         display: flex;
         flex-direction: row;
+    }
+
+    .youtube-video-div {
+        width: 500px;
+        height: 250px;
+        border: solid 5px #5c5a58;
     }
 
     /* contact.html */
