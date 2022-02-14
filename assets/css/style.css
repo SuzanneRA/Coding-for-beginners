@@ -618,7 +618,7 @@ form textarea {
         flex-direction: row;
     }   
 
-    /* community.hml */
+    /* community.html */
     #community-flex {
         flex-direction: row;
     }
@@ -628,10 +628,15 @@ form textarea {
         flex-direction: row;
     }
 
+    /* contact.html */
 
-    
+    #contactimage-container {
+        height: 600px;
+    }
 
-
+    .contact-image {
+        height: 600px;
+    }
 }
 
 
