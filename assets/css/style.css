@@ -609,9 +609,26 @@ form textarea {
     }
 
     /* setup.html */
-   #setup div {
+    #setup {
        flex-direction: row;
-   }
+    }
+
+    /* course.html */
+    #course {
+        flex-direction: row;
+    }   
+
+    /* community.hml */
+    #community-flex {
+        flex-direction: row;
+    }
+
+    #youtube-flex {
+        display: flex;
+        flex-direction: row;
+    }
+
+
     
 
 
