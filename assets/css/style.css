@@ -631,7 +631,8 @@ form textarea {
     .youtube-video-div {
         width: 500px;
         height: 250px;
-        border: solid 5px #5c5a58;
+        
+        background-color: #5c5a58;
     }
 
     /* contact.html */
