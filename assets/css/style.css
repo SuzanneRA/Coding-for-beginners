@@ -314,6 +314,11 @@ footer {
 
 /* start of contact page */
 
+#contactform-flex {
+    display: flex;
+    flex-direction: column;
+}
+
 #contactimage-container {
     width: 100%;
     height: 250px; 
@@ -326,7 +331,7 @@ footer {
    
 .contact-image {
     width: 100%;
-    height: 100%;
+    height: 250px;
     object-fit: cover;
 }
 
