@@ -586,8 +586,13 @@ form textarea {
 }
 
 @media screen and (min-width: 1200px) and (orientation: landscape) {
-    /* index.html */
+    /* index.html */ 
+    #front-image {
+        height: 700px;
+    }
+
     #cover-text {
+        padding-top: 20px;
         left: 200px;
         right: 200px;
     }
@@ -604,24 +609,12 @@ form textarea {
     }
 
     /* setup.html */
-    #flex-one {
-        width: 33%;
-        flex: 1;
-    }
-
-    #flex-two {
-        width: 33%;
-        flex: 2;
-    }
-
-    #flex-three {
-        width: 33%;
-        flex: 3;
-    }
+   #setup div {
+       flex-direction: row;
+   }
     
 
 
-
-
-
 }
+
+
