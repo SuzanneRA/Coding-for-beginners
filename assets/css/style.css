@@ -514,6 +514,13 @@ form textarea {
         height: 500px;
     }
 
+    #cover-text p {
+        font-size: 125%;
+        width: 350px;
+        height: 200px;
+        padding-top: 20px;
+    }
+
     /* setup.html */
     .workspace-image {
         width: 50%;
@@ -584,6 +591,34 @@ form textarea {
         left: 200px;
         right: 200px;
     }
+
+    #cover-text p {
+        font-size: 120%;
+        padding-left: 250px;
+    }
+
+    #fade-text p {
+        font-size: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    /* setup.html */
+    #flex-one {
+        width: 33%;
+        flex: 1;
+    }
+
+    #flex-two {
+        width: 33%;
+        flex: 2;
+    }
+
+    #flex-three {
+        width: 33%;
+        flex: 3;
+    }
+    
 
 
 
