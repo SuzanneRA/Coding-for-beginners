@@ -508,9 +508,12 @@ form textarea {
 
 @media screen and (min-width: 700px) and (orientation: portrait) {
     /* index.html */
+    #front-image {
+        height: 500px;
+    }
     #cover-text {
-        margin-right: 10px;
-        right: 20px;
+        left: 100px;
+        right: 100px;
     }
 
     /* setup.html */
