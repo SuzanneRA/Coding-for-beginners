@@ -631,18 +631,59 @@ form textarea {
     .youtube-video-div {
         width: 500px;
         height: 250px;
-        
         background-color: #5c5a58;
     }
 
     /* contact.html */
 
     #contactimage-container {
-        height: 600px;
+        height: 1000px;
     }
 
     .contact-image {
+        height: 1000px;
+    }
+
+    #contact-form {
         height: 600px;
+        margin-top: 75px;
+    }
+
+    #center-form-wrapper {
+        height: 500px;
+    }
+
+    #contact-form h3 {
+        font-size: 125%;
+    }
+
+    #name-sign-up {
+        width: 500px;
+        height: 50px;
+        font-size: 125%;
+    }
+
+    #email-sign-up {
+        width: 500px;
+        height: 50px;
+        font-size: 125%;
+    }
+
+    #text-area {
+        width: 500px;
+        height: 250px;
+        font-size: 125%;
+    }
+
+    label {
+        font-size: 125%;
+        margin-top: 20px;
+    }
+
+    button {
+        width: 70px;
+        height: 60px;
+        margin-top: 20px;
     }
 }
 
