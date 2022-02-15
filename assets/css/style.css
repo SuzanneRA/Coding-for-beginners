@@ -510,8 +510,6 @@ form textarea {
     .contact-image {
         height: 300px;
     }
-
-    
 }
 
 /* media queries screen min-width 700px */
@@ -585,11 +583,44 @@ form textarea {
     /* contact.html */
     .contact-image {
         height: 500px;
-
     }
 
     #contact-form {
-        margin-top: 300px;
+        margin-top: 250px;
+        height: 500px;
+    }
+
+    #contact-form h3 {
+        font-size: 100%;
+    }
+
+    #name-sign-up {
+        width: 300px;
+        height: 30px;
+        font-size: 100%;
+    }
+
+    #email-sign-up {
+        width: 300px;
+        height: 30px;
+        font-size: 100%;
+    }
+
+    #text-area {
+        width: 300px;
+        height: 200px;
+        font-size: 100%;
+    }
+
+    label {
+        font-size: 100%;
+        margin-top: 10px;
+    }
+
+    button {
+        width: 50px;
+        height: 40px;
+        margin-top: 10px;
     }
 }
 
@@ -655,10 +686,6 @@ form textarea {
     #contact-form {
         height: 600px;
         margin-top: 75px;
-    }
-
-    #center-form-wrapper {
-        height: 500px;
     }
 
     #contact-form h3 {
