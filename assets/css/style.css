@@ -503,6 +503,14 @@ form textarea {
     }
 
     /* contact.html */
+    #contactimage-container {
+        height: 300px;
+    }
+
+    .contact-image {
+        height: 300px;
+    }
+
     
 }
 
