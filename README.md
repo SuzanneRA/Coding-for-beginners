@@ -57,12 +57,13 @@ The goal of this website is to provide a brief, personal approach to making your
 ***
 ## UX; User Experience Design
 ### Overall User Experience
-1.It has been designed as mobile first.  The user may use a numer of different sized devices and the media queires reflect this so that the aesthetics of the site remain looking okay, and the site is accessable and readable across the majority of screen sizes.
-2.The user can expect the header and menu to stay in the same position on every page so the the title of the site is visible and the menu is always displayed at the top of the page making navigation easy and consistent for the user.
-3.The image on the home page gives an indication as to what the site is about and the text very briefly and succinctly explains the site's purpose.
-4.The footer remains the same format and contains the same information for every page and device ensuring that the user can always access the author and their LinkedIn profile.
-5.The site is clearly set out with each page title making it clear to the user what the content will be.
-6.The contact page allows the user to send suggestions to the author.  This site is not active as have still to learn how to do this, but it's there to show how to build a contact form with html and css.### Colours
+1. It has been designed as mobile first.  The user may use a numer of different sized devices and the media queires reflect this so that the aesthetics of the site remain looking okay, and the site is accessable and readable across the majority of screen sizes.
+2. The user can expect the header and menu to stay in the same position on every page so the the title of the site is visible and the menu is always displayed at the top of the page making navigation easy and consistent for the user.
+3. The image on the home page gives an indication as to what the site is about and the text very briefly and succinctly explains the site's purpose.
+4. The footer remains the same format and contains the same information for every page and device ensuring that the user can always access the author and their LinkedIn profile.
+5. The site is clearly set out with each page title making it clear to the user what the content will be.
+6. The contact page allows the user to send suggestions to the author.  This site is not active as have still to learn how to do this, but it's there to show how to build a contact form with html and css.
+### Colours
 I used HTML Color Codes(www.https://htmlcolorcodes.com) for a color palette and Hex colors.  I wanted something quite muted and calming so that the text and images would stand out clearly against the background.
 I used the color picker to choose the hover color on the button for the contact form.  I wanted the color to compliment the images on the home and contact pages.  I chose a soft cream color for the background for all the pages to be less harsh than just the white.
 ADD SCREEN GRAB FROM HTML COLOR CODES . COM
