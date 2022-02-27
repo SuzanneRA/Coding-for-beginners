@@ -149,6 +149,18 @@ I would like to curve the edges of the grey background for each of the sections/
    - error 4:  Unexpected token '500x' at line 414, col 13.
      height: 500x;
 
+4. [HTML Validator](https://www.freeformatter.com/html-validator.html) - "Validates HTML files for compliance against the W3C standards and performs linting to assess code quality against best practices".
+   - on index.html 2 errors found:
+      - End tag “section” seen, but there were open elements.
+        From line 69, column 5 to line 69, column 14
+        Code Extract:
+        /div>↩ </section>↩
+      - Unclosed element “div”.
+        From line 57, column 9 to line 57, column 39
+        Code Extract:
+        >↩ <div id="frontimage-container">↩
+   - on setup.html
+
 ### Cross Browser and Cross Device Testing
 
 I have loaded the website in Chrome, Safari and Firefox. Each browser displayed the site as I designed it to and the responsive design is functioning as I intended.
@@ -161,13 +173,16 @@ ADD SCREEN GRAB OF RESULT
 
 ### Bugs
 
-1. Resolved bugs
-   - error on line 203; changed height to 100%
-   - error on line 239; changed height to 100%
-   - error on line 274; changed height to 100%
-   - error on line 414; changed height to 200px and margin-top to 300px
+1. Resolved bugs CSS
+   - error on line 203 css; changed height to 100%
+   - error on line 239 css; changed height to 100%
+   - error on line 274 css; changed height to 100%
+   - error on line 414 css; changed height to 200px and margin-top to 300px
 
-2. Outstanding bugs
+2. Resolved bugs index.html
+   - added mising </div>
+
+. Outstanding bugs
 
 ### Accessibility
 
