@@ -1,5 +1,4 @@
 Things to do:
-make fade text appear on mobile sites without mouse
 correct background on course.html on larger screens
 correct background on youtube videos on larger screens
 
@@ -62,7 +61,7 @@ The goal of this website is to provide a brief, personal approach to making your
 3. The image on the home page gives an indication as to what the site is about and the text very briefly and succinctly explains the site's purpose.
 4. The footer remains the same format and contains the same information for every page and device ensuring that the user can always access the author and their LinkedIn profile.
 5. The site is clearly set out with each page title making it clear to the user what the content will be.
-6. The contact page allows the user to send suggestions to the author.  This site is not active as have still to learn how to do this, but it's there to show how to build a contact form with html and css.
+6. The contact page allows the user to send suggestions to the author.  Once the form is submitted it takes the user to a thank you page but to be clear this form is NOT active as have still to learn how to do this, but it's there to show how to build a contact form with html and css. 
 ### Colours
 I used HTML Color Codes(www.https://htmlcolorcodes.com) for a color palette and Hex colors.  I wanted something quite muted and calming so that the text and images would stand out clearly against the background.
 I used the color picker to choose the hover color on the button for the contact form.  I wanted the color to compliment the images on the home and contact pages.  I chose a soft cream color for the background for all the pages to be less harsh than just the white.
@@ -100,7 +99,7 @@ ADD SCREEN GRAB OF HOME PAGE
 As each of these three pages have three sections to them, either by the way of paragraphs or videos, I wanted it to be clear to the user the definition between each one.  I used a grey background to each div to compliment the cream and same coloured font for all of the text.  I had to slightly adapt this on the Community page as I didn't have three headers and three blocks of text.  I was conscious I had been quite wordy on the other two pages so wanted subsituted two secitons for two videos to add some variety.  I chose to have each div on the Set-up and the Course pages to lay next to each other on bigger screen and stacked on top of each other on smaller screens so they would be readable.  The Community page was a little different so had the video side by side or stacked on top of each other but always under the div containing the text.  I felt this looked better than having a video each side of the text section when the screen was bigger.
 AND SCREEN GRAB OF SET UP PAGE  AND THE DIFFERENCE ON THE COMMUNITY PAGE.
 #### Contact page
-I liked the idea of having one main image which both incorporated mindfullness / self-care and computing, and I think this image had it all!  Again it's farily muted in terms of the vibrancy of the colors, and it leads nicely onto the contact form which I kept very simple but still functional.
+I liked the idea of having one main image which both incorporated mindfullness / self-care and computing, and I think this image had it all!  Again it's farily muted in terms of the vibrancy of the colors, and it leads nicely onto the contact form which I kept very simple but still functional.  
 ADD SCREEN GRAB OF CONTACT PAGE
 #### 404 Error page
 I was advised by my mentor to put a personalised error page so I used the same image for the Contact page and added a slightly humerous message including a link to the Home page.
@@ -108,7 +107,35 @@ I was advised by my mentor to put a personalised error page so I used the same i
 I would like to curve the edges of the grey background for each of the sections/divs just to soften the look a little, and I would love to expand on my experiences of the course so far and generally my journey into coding.  I really enjoy reading about other people's experiences and I would like to share what I have learnt along the way with the view of encouraging other people to take that first step.  I also feel that the layout of my site could look a little slicker, so I would change how the text plays over the image on the home page and make one section fade into the other on the other pages.
 ***
 ## Testing
+### Validation Testing
+1. [HTML Validator](https://validator.w3.org/)
+2. [CSS Validator](https://jigsaw.w3.org/css-validator/)
+### Cross Browser and Cross Device Testing
+I have loaded the website in Chrome, Safari and Firefox. Each browser displayed as intended and the responsive design functioned as intended. I have used a number of mobile devices sizes in dev tools to ensure the website functions and appears OK across all devices.
 
+All anchor elements have been tested to ensure the correct href value has been used and external links open in new tabs 
+
+All user requirements have been addressed and tested as shown in [Existing Features](#Existing-Features)
+
+I have inputed various formats of data into the form on the contact page, and the form requires all sections to be completed including a ful email; if these things are not done it returns an error message. 
+
+I have run the website through [a11y Contrast Accessibility Validator](color.a11y.com) and the result is shown below
+![Contrast Check Results](./readme-content/images/testing/contrast-check.png)
+*As shown in the image, there is one failure on this test. The failed element is the footer text, which links to me as an author of the website, and I am happy to leave this as it is. The element in question is intended to be subtle and is not relevant to the content of the site. I believe changing the style of this element to pass the contrast check could cause it to distract from the purpose of the main site*
+
+Each page has been run through the W3C markup validation service, the index page and CSS reports are shown below
+![index.html Validation](./readme-content/images/testing/index-validate.png)
+![CSS Validation](./readme-content/images/testing/css-validate.png)
+All page tests are shown [here](w3c.md) and I have included a brief explanation of the 3 warnings shown on the CSS validation
+
+I have run the entire website through Chrome's lighthouse audit service and the results are shown below
+- Mobile
+
+![Mobile Lighthouse Results](./readme-content/images/testing/lighthouse-mob.png)
+- Desktop
+
+![Desktop Lighthouse Results](./readme-content/images/testing/lighthouse-desktop.png)
+***
 
 
 ## Used MDN for general help
