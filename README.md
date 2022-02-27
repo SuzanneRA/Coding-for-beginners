@@ -1,6 +1,3 @@
-Things to do:
-correct background on youtube videos on larger screens
-
 ## Portfolio Project 1 - HTML/CSS Essentials
 
 ## Author
