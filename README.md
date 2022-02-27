@@ -147,7 +147,7 @@ I have loaded the website in Chrome, Safari and Firefox. Each browser displayed 
 I have used a number of mobile devices sizes in dev tools to ensure the website functions and appears OK across a number of devices.
 I have inputed various formats of data into the form on the contact page, and the form requires all sections to be completed including a full email; if these things are not completed correctly it returns an error message. I have purposely not made the consent button as a required input.  When the form is submitted a new page is displayed thanking the user.
 I've tested all the anchor elements for external links and ensured they open in a new browser tab.  I've also tested the internal anchor elements and ensured they go to the relevant pages within the site.
-I've tested the user requirements as outlined in [Overall User Experience](#Overall-User-Experience)
+I've manually tested the user requirements as outlined in [Overall User Experience](#Overall-User-Experience)
 I've ran my site through Lighthouse's audit https://web.dev.measure/ and the results are bellow:
 ADD SCREEN GRAB OF RESULT
 
@@ -173,6 +173,7 @@ ADD SCREEN GRAB OF RESULTS
 3. Click on the Pages left menu ![image](https://user-images.githubusercontent.com/96961963/152250648-0ad06b4b-5ab6-4da6-a50e-2db8a623e54f.png)
 4. Click on drop down menu in Sources and select 'Main' ![image](https://user-images.githubusercontent.com/96961963/152250797-2840a8b6-3bab-4a87-ae88-baa882738daa.png)
 5. Click save and presented with Success message and deployed URL ![image](https://user-images.githubusercontent.com/96961963/152250896-b1932228-9efe-423c-b10f-d84bc38e3953.png)
+***
 
 ## Technologies Used
 
@@ -194,9 +195,35 @@ ADD SCREEN GRAB OF RESULTS
     - This gave me a good indication as to how my site was performing, especially in relation to accessability, best practices and search engine optimization.
 9. [Web Accessibility](https://www.webaccessibility.com/) and [Wave](https://wave.webaim.org/)
     - Accessability is to users with disabilities is incredibly important, so I chose these two tools in the final stages of my project to ensure I was on track with this important element of website design.
+10. [W3C Markup Validation Service](validator.w3.org)
+***
 
+## Credits
 
+### Content
 
-## Used MDN for general help
-## Used snippits of text from the answers posed on this site to the question of how to fade in text on an image https://stackoverflow.com/questions/27883032/css-fade-out-picture-and-fade-in-text
-## Used contact form code from Anya Hush on her first project Sunrise Yoga - https://github.com/Code-Institute-Submissions/sunrise-yoga
+- I used content from fellow student Dave Horrocks' Readme file on his submitted first project Katie Horrocks - Wildlife Photograhy (https://github.com/DaveyJH/ci-portfolio-one-v4/blob/main/README.md#Initial-Concept), in particular the testing and technologies used section 
+  though I have heavily modified both of these to fit my project.
+- I used the contact form from fellow student Anya Hush on her first project Sunrise Yoga (https://github.com/Code-Institute-Submissions/sunrise-yoga) as a strong basis for my contact form.
+- I used snippits of code from the answers on Stackoverflow for the question centered around how to fade in text on an image (https://stackoverflow.com/questions/27883032/css-fade-out-picture-and-fade-in-text) for my home page.
+- I have used code supplied to my by my mentor Malia Havlicek in particular in the css for my two YouTube videos, though went on to modify this supplied code to provide better user experience.
+
+### Media
+
+- As mentioned above, all images were taken from [Pexels](https://www.pexels.com/)
+
+### Acknowledgments
+
+- I want to acknowledge Dave Horrocks who is a student on the same course; his help and support has been invaluable to me, especially at the start of the project when I was suffering from Imposter Syndrome and he was able to guide me though
+  the process and make me believe in my abilites again.  
+- My mentor Malia Havlicek, who has challenged me and provided insight into some issues I faced.  I have quickly learnt with Malia that she will not simply give me the answers but will be a guiding light in times of need!
+- Lastly but by no means least my fellow students on Slack.  More often than not I was able to solve the issue before I received an answer, but when I was unable to do this or it was simply taking too long for me to figure it out
+  on my own David Bowers in particular was incredibly helpful and insightful.
+- I used MDN Web Docs (https://developer.mozilla.org/en-US/) as a general guide throughout, and it has proven helpful when I have encountered problems or simply for the times I wanted to add different elements within my project and didn't know how to.
+
+### Personal Development
+
+- I have come so far whilst doing this project, and although I have sought help as highlighted above, I often preferred to try and work it out for myself.   This has proved time consuming but my knowledge has increased day by day, 
+  and even when I'm not sure exactly how to solve an issue, I am finding that I am often on the right track in my efforts.  I realise that I have so, so much to learn and am already looking back at this project and seeing how I could 
+  have done things better, but even so I am proud of what I have achieved.
+***
