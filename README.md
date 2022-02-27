@@ -1,5 +1,4 @@
 Things to do:
-correct background on course.html on larger screens
 correct background on youtube videos on larger screens
 
 ## Portfolio Project 1 - HTML/CSS Essentials
@@ -29,25 +28,25 @@ https://github.com/SuzanneRA/Coding-for-beginners
     - [Images](#Images)
     - [Animations and Transitions](#Animations-and-Transitions)
     - [Wireframes](#Wireframes)
-    - [Features](#Features)
-      - [Header](#Header)
-        - [Footer](#Footer)
-        - [Home page](#Home-page)
-        - [Setup and Course and Community pages](#Setup-and-Course-and-Community-pages)
-        - [Contact page](#Contact-page)
-        - [404 Error page](#404-Error-page)
-        - [Future Features](#Future-Features)
-  - [Testing](#Testing)
-        - [Validation Testing](#Validationg-Testing)
-        - [Cross Browser and Cross Device Testing](#Cross-Browser-and-Cross-Device-Testing)
-        - [Bugs]
-        - [Accessibility]
-  - [Deployment](#Deployment)
-  - [Technologies Used](#Technologies-Used)
-  - [Credits](#Credits)
-    - [Content](#Content)
-    - [Media](#Media)
-    - [Acknowledgements](#Acknowledgements)
+  - [Features](#Features)
+    - [Header](#Header)
+    - [Footer](#Footer)
+    - [Home page](#Home-page)
+    - [Setup and Course and Community pages](#Setup-and-Course-and-Community-pages)
+    - [Contact page](#Contact-page)
+    - [404 Error page](#404-Error-page)
+    - [Future Features](#Future-Features)
+- [Testing](#Testing)
+  - [Validation Testing](#Validationg-Testing)
+  - [Cross Browser and Cross Device Testing](#Cross-Browser-and-Cross-Device-Testing)
+  - [Bugs]
+  - [Accessibility]
+- [Deployment](#Deployment)
+- [Technologies Used](#Technologies-Used)
+- [Credits](#Credits)
+  - [Content](#Content)
+  - [Media](#Media)
+  - [Acknowledgements](#Acknowledgements)
   - [Personal Development](#Personal-Development)
 
 ***
