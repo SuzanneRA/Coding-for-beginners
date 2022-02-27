@@ -138,6 +138,17 @@ I would like to curve the edges of the grey background for each of the sections/
 
 2. [CSS Validator](https://jigsaw.w3.org/css-validator/)
 
+3. [CSS Validator](https://www.cssportal.com/css-validator/)
+   - this resulted in 4 errors
+   - error 1: Unexpected token '2500x' at line 203, col 13.
+     height: 2500x;
+   - error 2: Unexpected token '2500x' at line 239, col 13.
+     height: 2500x;
+   - error 3: Unexpected token '2500x' at line 274, col 13.
+     height: 2500x;
+   - error 4:  Unexpected token '500x' at line 414, col 13.
+     height: 500x;
+
 ### Cross Browser and Cross Device Testing
 
 I have loaded the website in Chrome, Safari and Firefox. Each browser displayed the site as I designed it to and the responsive design is functioning as I intended.
@@ -151,6 +162,10 @@ ADD SCREEN GRAB OF RESULT
 ### Bugs
 
 1. Resolved bugs
+   - error on line 203; changed height to 100%
+   - error on line 239; changed height to 100%
+   - error on line 274; changed height to 100%
+   - error on line 414; changed height to 200px and margin-top to 300px
 
 2. Outstanding bugs
 
