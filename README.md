@@ -162,11 +162,11 @@ ADD SCREEN GRAB OF RESULT
 I ran my site through Web Accessibility (https://www.webaccessibility.com/) and here are the results:
 ADD SCREEN GRAB OF RESULTS
 
-I also ran it through Wave, Web accessibility evaluation tool, and the the results are as folows:
+I also ran it through Wave, Web accessibility evaluation tool (https://wave.webaim.org/) and the the results are as folows:
 ADD SCREEN GRAB OF RESULTS
 ***
 
-# Deployment
+## Deployment
 
 1. Go to the depository in Github https://github.com/SuzanneRA/Coding-for-beginners
 2. Go to Settings by clicking the cog icon next to 'Settings' ![image](https://user-images.githubusercontent.com/96961963/152250460-cbabd953-6208-4598-81a2-675a700c80bd.png)
@@ -174,14 +174,27 @@ ADD SCREEN GRAB OF RESULTS
 4. Click on drop down menu in Sources and select 'Main' ![image](https://user-images.githubusercontent.com/96961963/152250797-2840a8b6-3bab-4a87-ae88-baa882738daa.png)
 5. Click save and presented with Success message and deployed URL ![image](https://user-images.githubusercontent.com/96961963/152250896-b1932228-9efe-423c-b10f-d84bc38e3953.png)
 
-# Technologies Used
+## Technologies Used
 
-1. *[Balsamiq](https://balsamiq.com/)*
-    - Balsamiq was used to create [wireframes](./readme-content/wireframes.md) for the project
-2. *[Font Awesome](https://fontawesome.com/)*
-    - The project uses icons from Font Awesome version 5
-3. *[Chrome DevTools](https://developer.chrome.com/docs/devtools/)*
-    - Once the website was made to a basic deployment level, this extension featured heavily as I modified sizings and spacings
+1. [Balsamiq](https://balsamiq.com/)
+    - I used Balsamiq to create a very rough outline of the site and I added exentsive paragraph content here too: [wireframe](https://www.icloud.com/iclouddrive/029Tjjuuuh9lCl3pQe5N6pqWQ#First_Project)
+2. [Font Awesome](https://fontawesome.com/)
+    - I used icons from version 5 of Font Awesome
+3. [Pexels](https://www.pexels.com/)
+    - This was where I obtained all of my images - they are cost and royalty free and of good quality.
+4. [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+    - I started to become more comfortable with using this as the project went on and really saw how useful it is in de-bugging and making changes before commiting them on gitpod.
+5. [Google Fonts](https://fonts.google.com/)*
+    - I used Google Fonts as this was suggested within the course - there was a huge amount of choice which I really liked and it made it quite easy to pick fonts that I wanted.
+6. [Favicon](https://favicon.io/)
+    - My mentor introduced me to this as an optional extra and I decided to use it and am pleased with the result.
+7. [HTML Color Codes](www.https://htmlcolorcodes.com)
+    - I used this to firstly choose the colours and secondly to find out their hex values.
+8. [Lighthouse's audit](https://web.dev.measure/)
+    - This gave me a good indication as to how my site was performing, especially in relation to accessability, best practices and search engine optimization.
+9. [Web Accessibility](https://www.webaccessibility.com/) and [Wave](https://wave.webaim.org/)
+    - Accessability is to users with disabilities is incredibly important, so I chose these two tools in the final stages of my project to ensure I was on track with this important element of website design.
+
 
 
 ## Used MDN for general help
