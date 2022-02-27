@@ -209,7 +209,6 @@ footer {
 #setup div {
     color: #5c5a58;
     padding: 20px;
-    height: 33%;
     padding: 10px 25px;
     border: 10px solid #F9F6F0;
     align-items: flex-start;
@@ -246,7 +245,6 @@ footer {
 #course div {
     color: #5c5a58;
     padding: 20px;
-    height: 33%;
     padding: 10px 25px;
     border: 10px solid #F9F6F0;
     align-items: flex-start;
@@ -282,7 +280,6 @@ footer {
 #community div {
     color: #5c5a58;
     padding: 20px;
-    height: 33%;
     padding: 10px 25px;
     border: 10px solid #F9F6F0;
     align-items: flex-start;
