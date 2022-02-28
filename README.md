@@ -58,7 +58,7 @@ In my first project I want to create a useful and informative website for anyone
 The goal of this website is to provide a brief, personal approach to making your way into the world of code and becoming a Software Developer.  I believe strongly that we are all individuals and whichever course you go for has to fit all of your needs to give you the best chance of succeeding.  I have biased my findings in favour of the Full Stack Developer Course at The Code Institute and The Learning People.  I have intended for the information given to be geared towards being holistic as well as provding links to The Code Institute course and a contact form for any suggestions.  I wanted to give someoone new to Coding an idea of what to expect and give them the basic tools, physical or otherwise, to get started.
 ***
 
-## UX; User Experience Design
+## UX User Experience Design
 
 ### Overall User Experience
 
@@ -79,7 +79,7 @@ ADD SCREEN GRAB FROM HTML COLOR CODES . COM
 
 #### Typography
 
-I used [Google Fonts](https://fonts.google.com/) for the fonts Cinzel and Play. I felt that Cinzel looked contemporary and professional, and Play complimented it for the main bodies of text keeping the content clear and readable. [Cinzel](https://fonts.google.com/specimen/Cinzel?query=cinzel#standard-styles) [Play](https://fonts.google.com/specimen/Play?query=play#standard-styles)
+I used [Google Fonts](https://fonts.google.com/) for the fonts [Cinzel](https://fonts.google.com/specimen/Cinzel?query=cinzel#standard-styles) and [Play](https://fonts.google.com/specimen/Play?query=play#standard-styles). I felt that Cinzel looked contemporary and professional, and Play complimented it for the main bodies of text keeping the content clear and readable.
 ADD SCREEN GRAB OF BOTH FONTS
 
 #### Images
@@ -88,17 +88,17 @@ I was inspired by the use of [Font Awesome Icons](https://fontawesome.com/icons)
 
 #### Animations and Transitions
 
-When you first open the home page the image zooms in slightly which adds a fun element and draws the viewers eye to the image and text within the image. I learnt how to do this whilst doing the Love Running Project within the course and used those learnt skills to implement it in my own project. Below you will see a screen shot of the text displayed on mouse hover on the front image (but which is always displayed on screens less than 1200px). I am very interested in what CSS can offer in terms of interactivity and I felt it added a pleasing visual to those viewing the site on a desktop. ADD SCREEN SHOT OF FADE TEXT I want the menu to have a contempory feel; to achieve this I put left and right borders on a memu item to highlight what page you are on, whilst also making it clear what page you have navigated to. I have including just the left border on the menu list to highlight what menu page you can select before you have selected it which is is in contrast to both left and right borders. ADD SCREEN SHOT OF BOTH IF POSSIBLE To make it clear when you have the mouse hovered on the submit button as part of the form on the contact page, I changed the background color to a peachy color to match some of the colors in the images on the home and contact pages.
+When you first open the home page the image zooms in slightly which adds a fun element and draws the viewers eye to the image and text within the image. I learnt how to do this whilst doing the Love Running Project within the course and used those learnt skills to implement it in my own project. Below you will see a screen shot of the text displayed on mouse hover on the front image (which is only displayed on a desktop). I am very interested in what CSS can offer in terms of interactivity and I felt it added a pleasing visual to those viewing the site on a desktop. ADD SCREEN SHOT OF FADE TEXT I want the menu to have a contempory feel; to achieve this I put left and right borders on a memu item to highlight what page you are on, whilst also making it clear what page you have navigated to. I have including just the left border on the menu list to highlight what menu page you can select before you have selected it which is is in contrast to both left and right borders. To make it clear when you have the mouse hovered on the submit button as part of the form on the contact page, I changed the background color to a peachy color to match some of the colors in the images on the home and contact pages.
 
 ### Wireframes
 
-I drafted a layout of my project using Balsamiq Wireframes. I initially designed all content to be on the same page which is reflected in my original mockup linked below. When doing the project I realised that due to the amount of content I was putting in this would become a bit too cumbersome, and so changed my layout whilst doing the project so that each section will have it's own page. [Balsamiq](https://www.icloud.com/iclouddrive/029Tjjuuuh9lCl3pQe5N6pqWQ#First_Project)
+I drafted a layout of my project using [Balsamiq Wireframes](https://balsamiq.com/wireframes/).  I initially designed all content to be on the same page which is reflected in my original mockup shown below. When doing the project I realised that due to the amount of content I was putting in this would become a bit too cumbersome, and so changed my layout whilst doing the project so that each section will have it's own page. ADD SCREEN GRABS OF BALSAMIQ MOCK UP.
 
 ### Features
 
 #### Header
 
-I used the Cinzel font to add to the professional feel of the site. I wanted an imge behind the text to aid visual impact and chose a neutral image containing part of a flower. As I referenced plants later on it my site the use of a flower was not out of context. I want the text to stay to the left so that it did not overlay the flower which could cause some of the letters to become lost in the image. I had originally started with a different image but the colors were too dark and made the header too prominate detracting from the overall look I was going for.
+I used the Cinzel font to add to the professional feel of the site. I wanted an image behind the text to aid visual impact and chose a neutral image containing part of a flower. As I referenced plants later on it my site the use of a flower was not out of context. I want the text to stay to the left so that it did not overlay the flower which could cause some of the letters to become lost in the image. I had originally started with a different image but the colors were too dark and made the header too prominate detracting from the overall look I was going for.
 ADD SCREEN GRAB OF HEADER
 
 #### Footer
@@ -127,14 +127,14 @@ I was advised by my mentor to put a personalised error page so I used the same i
 
 #### Future Features
 
-I would like to curve the edges of the grey background for each of the sections/divs just to soften the look a little, and I would love to expand on my experiences of the course so far and generally my journey into coding.  I really enjoy reading about other people's experiences and I would like to share what I have learnt along the way with the view of encouraging other people to take that first step.  I also feel that the layout of my site could look a little slicker, so I would change how the text plays over the image on the home page and make one section fade into the other on the other pages.
+I would like to curve the edges of the grey background for each of the sections/divs just to soften the look a little, and I would love to expand on my experiences of the course so far and generally my journey into coding.  I really enjoy reading about other people's experiences and I would like to share what I have learnt along the way with the view of encouraging other people to take that first step.  I also feel that the layout of my site could look a little slicker, so I would change how the text plays over the image on the home page and make one section fade into the other on the other pages.  I would also make the fade text on the home page visible at all times if viewed on a mobile.
 ***
 
 ## Testing
 
 ### Validation Testing
 
-1. [CSS Validator](https://www.cssportal.com/css-validator/)
+1. [CSS Validator with CSS Portal](https://www.cssportal.com/css-validator/)
    - this resulted in 4 errors
    - error 1: Unexpected token '2500x' at line 203, col 13.
      height: 2500x;
@@ -145,7 +145,7 @@ I would like to curve the edges of the grey background for each of the sections/
    - error 4:  Unexpected token '500x' at line 414, col 13.
      height: 500x;
 
-2. [HTML Validator](https://www.freeformatter.com/html-validator.html) - "Validates HTML files for compliance against the W3C standards and performs linting to assess code quality against best practices".
+2. [HTML Validator with Free Formatter](https://www.freeformatter.com/html-validator.html)
    - on index.html 2 errors found:
       - End tag “section” seen, but there were open elements.
         From line 69, column 5 to line 69, column 14
@@ -191,7 +191,7 @@ I would like to curve the edges of the grey background for each of the sections/
 
 - on 404.html no errors found
 
-I also used [HTML Validator](https://validator.w3.org/) and [CSS Validator](https://jigsaw.w3.org/css-validator/) following the use of the above 2 validators; I was having a lot of issues getting the W3C validators to work originally hence the use of different validators originally.  For thoroughness sake I did run the code through the W3C validators and it found 1 error in CSS on line 161.
+I also used the [W3C HTML Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) following the use of the above 2 validators; I was having a lot of issues getting the W3C validators to work originally hence the use of different validators originally.  For thoroughness sake I did run the code through these validators and it found 1 error in CSS on line 161 showing opacity: 1s.
 
 ### Cross Browser and Cross Device Testing
 
@@ -199,39 +199,40 @@ I have loaded the website in Chrome, Safari and Firefox. Each browser displayed 
 I have used a number of mobile devices sizes in dev tools to ensure the website functions and appears OK across a number of devices.
 I have inputed various formats of data into the form on the contact page, and the form requires all sections to be completed including a full email; if these things are not completed correctly it returns an error message. I have purposely not made the consent button as a required input.  When the form is submitted a new page is displayed thanking the user.
 I've tested all the anchor elements for external links and ensured they open in a new browser tab.  I've also tested the internal anchor elements and ensured they go to the relevant pages within the site.
-I've manually tested the user requirements as outlined in [Overall User Experience](#Overall-User-Experience)
+I've manually tested the user requirements as outlined in [Overall User Experience](#Overall-User-Experience).
 I've ran my site through Lighthouse's audit [Web Dev](https://web.dev.measure/) and the results are bellow:
 ADD SCREEN GRAB OF RESULT
 
 ### Bugs
 
-1. Resolved bugs CSS
+1. Resolved bugs for CSS
    - error on line 203 css; changed height to 100%
    - error on line 239 css; changed height to 100%
    - error on line 274 css; changed height to 100%
    - error on line 414 css; changed height to 200px and margin-top to 300px
+   - error on line 161 - removed opacity: 1s
 
-2. Resolved bug index.html
-   - added mising </div>
+2. Resolved bug for index.html
+   - added mising end bracket for div
    - deleted obsolete opacity from fade-text id
 
-3. Resolved bugs community.html
+3. Resolved bugs for community.html
    - line 92 and line 93; removed "shift" action on text
    - line 99 and line 100; removed text witin iframe element
    - line 97 to line 99; changed second video to have id=iframe-2 and subsequent css amendment so that styling would apply to both videos
 
-4. Resolved bug contact.html
+4. Resolved bug for contact.html
    - removed 'for' attribute
 
 5. Outstanding bugs
-   - on index.html advisory error or including an heading on section element; I do not wish for there to be a heading at this point as this will distract from the user experience
+   - on index.html advisory error or including an heading on section element; I do not wish for there to be a heading at this point as this will distract from the user experience and overall look of the site
 
 ### Accessibility
 
-I ran my site through [Web Accessibility](https://www.webaccessibility.com/) and here are the results:
+I ran my site through [Web Accessibility](https://www.webaccessibility.com/) and here are the results, showing all okay:
 ADD SCREEN GRAB OF RESULTS
 
-I also ran it through Wave, Web accessibility evaluation tool [Wave](https://wave.webaim.org/) and the the results are as folows:
+I also ran it through [Wave](https://wave.webaim.org/) Web accessibility evaluation tool and the the results are as folows, showing all okay:
 ADD SCREEN GRAB OF RESULTS
 ***
 
@@ -252,7 +253,7 @@ ADD SCREEN GRAB OF RESULTS
 ## Technologies Used
 
 1. [Balsamiq](https://balsamiq.com/)
-    - I used Balsamiq to create a very rough outline of the site and I added exentsive paragraph content here too: [wireframe](https://www.icloud.com/iclouddrive/029Tjjuuuh9lCl3pQe5N6pqWQ#First_Project)
+    - I used Balsamiq to create a very rough outline of the site and I added exentsive paragraph content here too.
 
 2. [Font Awesome](https://fontawesome.com/)
     - I used icons from version 5 of Font Awesome
@@ -263,7 +264,7 @@ ADD SCREEN GRAB OF RESULTS
 4. [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
     - I started to become more comfortable with using this as the project went on and really saw how useful it is in de-bugging and making changes before commiting them on gitpod.
 
-5. [Google Fonts](https://fonts.google.com/)*
+5. [Google Fonts](https://fonts.google.com/)
     - I used Google Fonts as this was suggested within the course - there was a huge amount of choice which I really liked and it made it quite easy to pick fonts that I wanted.
 
 6. [Favicon](https://favicon.io/)
@@ -293,8 +294,7 @@ ADD SCREEN GRAB OF RESULTS
 
 ### Content
 
-- I used content from fellow student Dave Horrocks' Readme file on his submitted first project [Katie Horrocks - Wildlife Photograhy](https://github.com/DaveyJH/ci-portfolio-one-v4/blob/main/README.md#Initial-Concept), in particular the testing and technologies used section
-  though I have heavily modified both of these to fit my project.
+- I used content from fellow student Dave Horrocks' Readme file on his submitted first project [Katie Horrocks - Wildlife Photograhy](https://github.com/DaveyJH/ci-portfolio-one-v4/blob/main/README.md#Initial-Concept), in particular the Test and Technologies used section, and point 1 in Overall User Experience though I have heavily modified both of these to fit my project.
 - I used the contact form from fellow student Anya Hush on her first project [Sunrise Yoga](https://github.com/Code-Institute-Submissions/sunrise-yoga) as a strong basis for my contact form.
 - I used snippits of code from the answers on Stackoverflow for the question centered around how to fade in text on an image [Stackoverflor](https://stackoverflow.com/questions/27883032/css-fade-out-picture-and-fade-in-text) for my home page.
 - I have used code supplied to my by my mentor Malia Havlicek in particular in the css for my two YouTube videos, though went on to modify this supplied code to provide better user experience.
@@ -314,6 +314,6 @@ ADD SCREEN GRAB OF RESULTS
 
 ### Personal Development
 
-- I have come so far whilst doing this project, and although I have sought help as highlighted above, I often preferred to try and work it out for myself.   This has proved time consuming but my knowledge has increased day by day,
+- I have come so far whilst doing this project, and although I have sought help as highlighted above, I often preferred to try and work it out for myself.   This has proved time consuming but my knowledge has increased ten-fold,
   and even when I'm not sure exactly how to solve an issue, I am finding that I am often on the right track in my efforts.  I realise that I have so, so much to learn and am already looking back at this project and seeing how I could
-  have done things better, but even so I am proud of what I have achieved.
+  have done things better and I'm sure there is some code in my CSS which is not relevant, but even so I am proud of what I have achieved.
