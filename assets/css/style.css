@@ -614,7 +614,6 @@ form textarea {
     }
 
     #contact-form {
-        margin-top: 250px;
         height: 500px;
     }
 
@@ -708,11 +707,11 @@ form textarea {
     /* contact.html */
 
     #contactimage-container {
-        height: 1200px;
+        height:700px;
     }
 
     #contact-image {
-        height: 1200px;
+        height: 700px;
     }
 
     #contact-form {
