@@ -1,7 +1,5 @@
 # Portfolio Project 1 - HTML/CSS Essentials
 
-<img width="997" alt="Screenshot 2022-02-28 at 13 50 17" src="https://user-images.githubusercontent.com/96961963/155994391-ff56b8d2-59cc-42ee-b689-f582853c6e6b.png">
-
 ## Author
 
 SUZANNE ASHFORD
@@ -170,7 +168,7 @@ This resulted in  errors
 3. error 3: Unexpected token '2500x' at line 274, col 13. height: 2500x;
 4. error 4: Unexpected token '500x' at line 414, col 13. height: 500x;
 5. error 5: Expected (color) but found 'rgb(249 246 240 / 50%)'.background-color: rgb(249 246 240 / 50%); line 146
-6. error 6: Expected (<color>) but found 'rgb(249 246 240 / 50%)'.background-color: rgb(249 246 240 / 50%); line 463
+6. error 6: Expected (color) but found 'rgb(249 246 240 / 50%)'.background-color: rgb(249 246 240 / 50%); line 463
 
 #### [HTML Validator with Free Formatter](https://www.freeformatter.com/html-validator.html)
 
@@ -182,7 +180,7 @@ This resulted in  errors
       Code Extract: div id of frontimage-container
 3. Section lacks heading. Consider using h2 - h6 elements to add identifying headings to all sections. From line56, column 5 to line 56, column 36
    Code Extract: r --> < section class="main-container" >
-      
+
 ##### On setup.html; no errors found
 
 ##### On course.html; no errors found
@@ -238,7 +236,7 @@ I've ran my site through Lighthouse's audit [Web Dev](https://web.dev/measure/?g
 4. error on line 414 css; changed height to 200px and margin-top to 300px
 5. error on line 146 css; added commas and changed percentage to decimal
 6. error on line 463 css; added commas and changed percentage to decimal
-5. (from W3C CSS Validator) error on line 161 - removed opacity: 1s
+7. (from W3C CSS Validator) error on line 161 - removed opacity: 1s
 
 #### Resolved bug for index.html
 
@@ -332,26 +330,26 @@ I also ran it through [Wave](https://wave.webaim.org/) Web accessibility evaluat
 
 ### Content
 
-  - I used content from fellow student Dave Horrocks' Readme file on his submitted first project [Katie Horrocks - Wildlife Photograhy](https://github.com/DaveyJH/ci-portfolio-one-v4/blob/main/README.md#Initial-Concept), in particular the Test and Technologies used section, and point 1 in Overall User Experience though I have heavily modified both of these to fit my project.
+1. I used content from fellow student Dave Horrocks' Readme file on his submitted first project [Katie Horrocks - Wildlife Photograhy](https://github.com/DaveyJH/ci-portfolio-one-v4/blob/main/README.md#Initial-Concept), in particular the Test and Technologies used section, and point 1 in Overall User Experience though I have heavily modified both of these to fit my project.
   
-  - I used the contact form from fellow student Anya Hush on her first project [Sunrise Yoga](https://github.com/Code-Institute-Submissions/sunrise-yoga) as a strong basis for my contact form.
+2. I used the contact form from fellow student Anya Hush on her first project [Sunrise Yoga](https://github.com/Code-Institute-Submissions/sunrise-yoga) as a strong basis for my contact form.
   
-  - I used snippets of code from the answers on Stackoverflow for the question centred around how to fade in text on an image [Stackoverflow](https://stackoverflow.com/questions/27883032/css-fade-out-picture-and-fade-in-text) for my home page.
+3. I used snippets of code from the answers on Stackoverflow for the question centred around how to fade in text on an image [Stackoverflow](https://stackoverflow.com/questions/27883032/css-fade-out-picture-and-fade-in-text) for my home page.
   
-- I have used code supplied to my by my mentor Malia Havlicek in particular in the css for my two YouTube videos, though went on to modify this supplied code to provide better user experience.
+4. I have used code supplied to my by my mentor Malia Havlicek in particular in the css for my two YouTube videos, though went on to modify this supplied code to provide better user experience.
 
 ### Media
 
-  - As mentioned above, all images were taken from [Pexels](https://www.pexels.com/)
+As mentioned above, all images were taken from [Pexels](https://www.pexels.com/)
 
 ### Acknowledgements
 
-  - I want to acknowledge Dave Horrocks who is a student on the same course; his help and support has been invaluable to me, especially at the start of the project when I was suffering from Imposter Syndrome and he was able to guide me though the process and make me believe in my abilities again.  
+1. I want to acknowledge Dave Horrocks who is a student on the same course; his help and support has been invaluable to me, especially at the start of the project when I was suffering from Imposter Syndrome and he was able to guide me though the process and make me believe in my abilities again.  
   
-  - My mentor Malia Havlicek, who has challenged me and provided insight into some issues I faced.  I have quickly learnt with Malia that she will not simply give me the answers but will be a guiding light in times of need!
+2. My mentor Malia Havlicek, who has challenged me and provided insight into some issues I faced.  I have quickly learnt with Malia that she will not simply give me the answers but will be a guiding light in times of need!
 
-### Personal Development 
+### Personal Development
 
-  - When I look back a couple of months ago to when I hadn't ever touched code in my life to where I am now, I am very proud to say that I've been able to do this project.  I took the approach to try and sort out any issues myself, only turning to help when I really needed to or where it was taking too long to try and figure it out myself, and although this approach was very time consuming my knowledge has benifited hugely. 
-  - I look back at this project and there are things I would most certainly change if I did it again, and I'm sure there's some CSS content which doesn't need to be there, but I've done a huge amount of learning going through this process and I'm confident my learning curve will continue ten-fold on the next project.
+1. When I look back a couple of months ago to when I hadn't ever touched code in my life to where I am now, I am very proud to say that I've been able to do this project.  I took the approach to try and sort out any issues myself, only turning to help when I really needed to or where it was taking too long to try and figure it out myself, and although this approach was very time consuming my knowledge has benifited hugely.
 
+2. I look back at this project and there are things I would most certainly change if I did it again, and I'm sure there's some CSS content which doesn't need to be there, but I've done a huge amount of learning going through this process and I'm confident my learning curve will continue ten-fold on the next project.
