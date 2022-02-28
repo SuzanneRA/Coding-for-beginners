@@ -337,7 +337,7 @@ I also ran it through [Wave](https://wave.webaim.org/) Web accessibility evaluat
 
   - As mentioned above, all images were taken from [Pexels](https://www.pexels.com/)
 
-### Acknowledgments
+### Acknowledgements
 
   - I want to acknowledge Dave Horrocks who is a student on the same course; his help and support has been invaluable to me, especially at the start of the project when I was suffering from Imposter Syndrome and he was able to guide me though the process and make me believe in my abilities again.  
   
