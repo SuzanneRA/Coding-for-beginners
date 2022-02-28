@@ -134,11 +134,7 @@ I would like to curve the edges of the grey background for each of the sections/
 
 ### Validation Testing
 
-1. [HTML Validator](https://validator.w3.org/)
-
-2. [CSS Validator](https://jigsaw.w3.org/css-validator/)
-
-3. [CSS Validator](https://www.cssportal.com/css-validator/)
+1. [CSS Validator](https://www.cssportal.com/css-validator/)
    - this resulted in 4 errors
    - error 1: Unexpected token '2500x' at line 203, col 13.
      height: 2500x;
@@ -149,7 +145,7 @@ I would like to curve the edges of the grey background for each of the sections/
    - error 4:  Unexpected token '500x' at line 414, col 13.
      height: 500x;
 
-4. [HTML Validator](https://www.freeformatter.com/html-validator.html) - "Validates HTML files for compliance against the W3C standards and performs linting to assess code quality against best practices".
+2. [HTML Validator](https://www.freeformatter.com/html-validator.html) - "Validates HTML files for compliance against the W3C standards and performs linting to assess code quality against best practices".
    - on index.html 2 errors found:
       - End tag “section” seen, but there were open elements.
         From line 69, column 5 to line 69, column 14
@@ -193,6 +189,10 @@ I would like to curve the edges of the grey background for each of the sections/
 
 - on form-feedback.html no errors found
 
+- on 404.html no errors found
+
+I also used [HTML Validator](https://validator.w3.org/) and [CSS Validator](https://jigsaw.w3.org/css-validator/) following the use of the above 2 validators; I was having a lot of issues getting the W3C validators to work originally hence the use of different validators originally.  For thoroughness sake I did run the code through the W3C validators and it found 1 error in CSS on line 161.
+
 ### Cross Browser and Cross Device Testing
 
 I have loaded the website in Chrome, Safari and Firefox. Each browser displayed the site as I designed it to and the responsive design is functioning as I intended.
@@ -211,15 +211,20 @@ ADD SCREEN GRAB OF RESULT
    - error on line 274 css; changed height to 100%
    - error on line 414 css; changed height to 200px and margin-top to 300px
 
-2. Resolved bugs index.html
+2. Resolved bug index.html
    - added mising </div>
+   - deleted obsolete opacity from fade-text id
 
 3. Resolved bugs community.html
    - line 92 and line 93; removed "shift" action on text
    - line 99 and line 100; removed text witin iframe element
    - line 97 to line 99; changed second video to have id=iframe-2 and subsequent css amendment so that styling would apply to both videos
 
-4. Outstanding bugs
+4. Resolved bug contact.html
+   - removed 'for' attribute
+
+5. Outstanding bugs
+   - on index.html advisory error or including an heading on section element; I do not wish for there to be a heading at this point as this will distract from the user experience
 
 ### Accessibility
 
