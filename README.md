@@ -17,7 +17,7 @@ SUZANNE ASHFORD
 
 - [Objective](#Objective)
 - [Project Goals](#Project-Goals)
-- [UX; User Experience Design](#UX;User-Experience-Design)
+- [UX User Experience Design](#UX-User-Experience-Design)
   - [Overall User Experience](#Overall-User-Experience)
   - [Design Choices](#Design-Choices)
     - [Colours](#Colours)
@@ -147,11 +147,11 @@ I would like to curve the edges of the grey background for each of the sections/
 
 2. [HTML Validator with Free Formatter](https://www.freeformatter.com/html-validator.html)
    - on index.html 2 errors found:
-      - End tag “section” seen, but there were open elements.
+         - End tag “section” seen, but there were open elements.
         From line 69, column 5 to line 69, column 14
         Code Extract:
         /div>↩ </section>↩
-      - Unclosed element “div”.
+         - Unclosed element “div”.
         From line 57, column 9 to line 57, column 39
         Code Extract: div id of frontimage-container
 
@@ -160,7 +160,8 @@ I would like to curve the edges of the grey background for each of the sections/
    - on course.html; no errors found
 
    - on community.html; 5 errors found:
-      - Text not allowed in element “iframe” in this context.
+   -
+      - Text not allowed in element iframe in this context.
         From line 92, column 172 to line 92, column 175
         Code Extract:
         rogramme"Code↩
@@ -171,7 +172,7 @@ I would like to curve the edges of the grey background for each of the sections/
       - Duplicate ID “iframe-1”.
         From line 97, column 17 to line 99, column 153
         Code Extract:
-        iframe class="youtube-video" id="iframe-1" src="https://www.youtube.com/embed/pBxeVPMg77g"↩ title="Code Institute - What is Imposter Syndrome?"↩ aria-label="A video where we speak to Dr Kara McGann in which she tells us about Impostor Syndrome and how best to cope with it"What↩
+        iframe class="youtube-video" id="iframe-1" src="https://www.youtube.com/embed/pBxeVPMg77g"↩ title="Code Institute - What is Imposter Syndrome?"↩ aria-    label="A video where we speak to Dr Kara McGann in which she tells us about Impostor Syndrome and how best to cope with it"What↩
       - Text not allowed in element “iframe” in this context.
         From line 99, column 154 to line 99, column 157
         Code Extract:
