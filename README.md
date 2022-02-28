@@ -36,7 +36,7 @@ SUZANNE ASHFORD
     - [404 Error page](#404-Error-page)
     - [Future Features](#Future-Features)
 - [Testing](#Testing)
-  - [Validation Testing](#Validationg-Testing)
+  - [Validation Testing](#Validation-Testing)
   - [Cross Browser and Cross Device Testing](#Cross-Browser-and-Cross-Device-Testing)
   - [Bugs]
   - [Accessibility]
