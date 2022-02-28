@@ -75,7 +75,7 @@ The goal of this website is to provide a brief, personal approach to making your
 
 #### Colours
 
-I used [HTML Color Codes](www.https://htmlcolorcodes.com) for a colour palette and Hex colors.  I wanted something quite muted and calming so that the text and images would stand out clearly against the background.
+I used [HTML Color Codes](https://htmlcolorcodes.com/) for a colour palette and Hex colors.  I wanted something quite muted and calming so that the text and images would stand out clearly against the background.
 I used the colour picker to choose the hover colour on the button for the contact form.  I wanted the colour to compliment the images on the home and contact pages.  I chose a soft cream colour for the background for all the pages to be less harsh than just the white.
 
 ![Screenshot 2022-02-28 at 13 56 01](https://user-images.githubusercontent.com/96961963/155995191-58cad899-f01e-41b0-867b-eb3fcbf1d04f.png)
