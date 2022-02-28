@@ -326,12 +326,12 @@ footer {
     flex-direction: column;
 }
 
-#contactimage-container {
+.contactimage-container {
     width: 100%;
     height: 250px; 
 }
 
-#contactimage-container div {
+.contactimage-container div {
     margin-top: 20px;
     width: 100%;
 }
@@ -531,11 +531,11 @@ form textarea {
     }
 
     /* contact.html */
-    #contactimage-container {
+    .contactimage-container {
         height: 300px;
     }
 
-    .contact-image {
+    #contact-image {
         height: 300px;
     }
 }
@@ -609,6 +609,10 @@ form textarea {
     }
 
     /* contact.html */
+    .contactimage-container {
+        height: 500px;
+    }
+
     #contact-image {
         height: 500px;
     }
@@ -707,7 +711,7 @@ form textarea {
     }
 
     /* contact.html */
-    #contactimage-container {
+    .contactimage-container {
         height:700px;
     }
 
