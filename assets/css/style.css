@@ -678,6 +678,10 @@ form textarea {
     }   
 
     /* community.html */
+    .google-image {
+        width: 350px;
+    }
+    
     #community-flex {
         flex-direction: row;
     }
