@@ -215,7 +215,15 @@ This resulted in  errors
 
 ##### On 404.html no errors found
 
-I also used the [W3C HTML Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) following the use of the above 2 validators; I was having a lot of issues getting the W3C validators to work originally hence the use of different validators originally.  For thoroughness sake I did run the code through these validators and it found 1 error in CSS on line 161 showing opacity: 1s.
+I also used the [W3C HTML Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) following the use of the above 2 validators; I was having a lot of issues getting the W3C validators to work originally hence the use of different validators to start with and I continue to not be able to use them except for on odd occassioins; I am told by tutor support there is an issue with the site rather than what I am doing.  I was able to use W3C Validators just before submitting my project and the result for my html was this:
+
+![Screenshot 2022-02-28 at 19 56 38](https://user-images.githubusercontent.com/96961963/156049886-6763728d-da3a-441f-b740-8f57a64be42e.png)
+
+And the result for my css was this:
+
+![Screenshot 2022-02-28 at 20 00 53](https://user-images.githubusercontent.com/96961963/156050465-9ce609ca-219e-41f2-a3e2-976b0259d46c.png)
+
+At an early attempt with the W3C CSS Validator it found 1 error in CSS on line 161 showing opacity: 1s, which you will see I corrected in the Bugs section.
 
 ### Cross Browser and Cross Device Testing
 
