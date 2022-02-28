@@ -161,62 +161,53 @@ I would like to curve the edges of the grey background for each of the sections/
 
 ### Validation Testing
 
-1. [CSS Validator with CSS Portal](https://www.cssportal.com/css-validator/)
-     - this resulted in 4 errors
-     - error 1: Unexpected token '2500x' at line 203, col 13.
-     height: 2500x;
-     - error 2: Unexpected token '2500x' at line 239, col 13.
-     height: 2500x;
-     - error 3: Unexpected token '2500x' at line 274, col 13.
-     height: 2500x;
-     - error 4:  Unexpected token '500x' at line 414, col 13.
-     height: 500x;
+#### [CSS Validator with CSS Portal](https://www.cssportal.com/css-validator/)
+This resulted in 4 errors
+1. error 1: Unexpected token '2500x' at line 203, col 13. height: 2500x;
+2. error 2: Unexpected token '2500x' at line 239, col 13. height: 2500x;
+3. error 3: Unexpected token '2500x' at line 274, col 13. height: 2500x;
+4. error 4:  Unexpected token '500x' at line 414, col 13. height: 500x;
 
-2. [HTML Validator with Free Formatter](https://www.freeformatter.com/html-validator.html)
-     - on index.html 2 errors found:
-     - End tag “section” seen, but there were open elements.
-     From line 69, column 5 to line 69, column 14
-     Code Extract:
-     /div>↩ </section>↩
-     - Unclosed element “div”.
-      From line 57, column 9 to line 57, column 39
+#### [HTML Validator with Free Formatter](https://www.freeformatter.com/html-validator.html)
+
+##### On index.html 2 errors found
+
+1. End tag “section” seen, but there were open elements. From line 69, column 5 to line 69, column 14
+   Code Extract: /div>↩ </section>↩
+2. Unclosed element “div”. From line 57, column 9 to line 57, column 39
       Code Extract: div id of frontimage-container
+      
+##### On setup.html; no errors found
 
-     - on setup.html; no errors found
+##### On course.html; no errors found
 
-     - on course.html; no errors found
+##### On community.html; 5 errors found
 
-     - on community.html; 5 errors found:
-           - Text not allowed in element “iframe” in this context.
-        From line 92, column 172 to line 92, column 175
+1. Text not allowed in element “iframe” in this context. From line 92, column 172 to line 92, column 175
         Code Extract:
         rogramme"Code↩
-           - Text not allowed in element “iframe” in this context.
-        From line 93, column 1 to line 93, column 66
+2. Text not allowed in element “iframe” in this context. From line 93, column 1 to line 93, column 66
         Code Extract:
         mme">Code Institute - Take Control and Change Career</ifr
-           - Duplicate ID “iframe-1”.
-        From line 97, column 17 to line 99, column 153
+3. Duplicate ID “iframe-1”. From line 97, column 17 to line 99, column 153
         Code Extract:
-        iframe class="youtube-video" id="iframe-1" src= https: //www.youtube.com/embed/pBxeVPMg77g ↩ title="Code Institute - What is Imposter Syndrome?"↩ aria-label="A video where we speak to Dr Kara McGann in which she tells us about Impostor Syndrome and how best to cope with it"What↩
-           - Text not allowed in element “iframe” in this context.
-        From line 99, column 154 to line 99, column 157
+        iframe class="youtube-video" id="iframe-1" src= https: //www. youtube.com /embed/ pBxeVPMg77g ↩ title="Code Institute - What is Imposter Syndrome?"↩ aria-label="A video where we speak to Dr Kara McGann in which she tells us about Impostor Syndrome and how best to cope with it"What↩
+4. Text not allowed in element “iframe” in this context. From line 99, column 154 to line 99, column 157
         Code Extract:
         with it"What↩
-           - Text not allowed in element “iframe” in this context.
-        From line 100, column 1 to line 100, column 45
+5. Text not allowed in element “iframe” in this context. From line 100, column 1 to line 100, column 45
         Code Extract:
         it">What is Imposter Syndrome?</ifr
 
-      - on contact.html; 1 error found:
-      - The “for” attribute of the “label” element must refer to a non-hidden form control.
-        From line 85, column 21 to line 85, column 52
+##### On contact.html; 1 error found
+
+1. The “for” attribute of the “label” element must refer to a non-hidden form control. From line 85, column 21 to line 85, column 52
         Code Extract:
         label for="contact-permission"↩
 
-      - on form-feedback.html no errors found
+##### On form-feedback.html no errors found
 
-      - on 404.html no errors found
+##### On 404.html no errors found
 
 I also used the [W3C HTML Validator](https://validator.w3.org/) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) following the use of the above 2 validators; I was having a lot of issues getting the W3C validators to work originally hence the use of different validators originally.  For thoroughness sake I did run the code through these validators and it found 1 error in CSS on line 161 showing opacity: 1s.
 
