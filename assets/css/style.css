@@ -651,6 +651,8 @@ form textarea {
     }
 }
 
+/* media queries screen min-width 1200px */
+
 @media screen and (min-width: 1200px) and (orientation: landscape) {
     /* index.html */ 
     #front-image {
@@ -705,7 +707,6 @@ form textarea {
     }
 
     /* contact.html */
-
     #contactimage-container {
         height:700px;
     }
