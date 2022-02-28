@@ -19,7 +19,7 @@ SUZANNE ASHFORD
 
 - [Objective](#Objective)
 - [Project Goals](#Project-Goals)
-- [UX; User Experience Design](#UX;User-Experience-Design)
+- [UX User Experience Design](#UX User-Experience-Design)
   - [Overall User Experience](#Overall-User-Experience)
   - [Design Choices](#Design-Choices)
     - [Colours](#Colours)
