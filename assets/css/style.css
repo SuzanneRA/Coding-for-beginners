@@ -304,6 +304,14 @@ footer {
     text-align: center;
 }
 
+.youtube-video-div iframe-2 {
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    align-items: flex-start;
+    text-align: center;
+}
+
 .google-image {
     height: 175px;
     width: 250px;

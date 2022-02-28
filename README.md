@@ -1,4 +1,4 @@
-## Portfolio Project 1 - HTML/CSS Essentials
+# Portfolio Project 1 - HTML/CSS Essentials
 
 ## Author
 
@@ -10,7 +10,7 @@ SUZANNE ASHFORD
 
 ## Repository
 
-https://github.com/SuzanneRA/Coding-for-beginners
+[https://github.com/SuzanneRA/Coding-for-beginners](https://github.com/SuzanneRA/Coding-for-beginners)
 ***
 
 ## Table of Contents
@@ -73,18 +73,18 @@ The goal of this website is to provide a brief, personal approach to making your
 
 #### Colours
 
-I used HTML Color Codes(www.https://htmlcolorcodes.com) for a color palette and Hex colors.  I wanted something quite muted and calming so that the text and images would stand out clearly against the background.
+I used [HTML Color Codes](www.https://htmlcolorcodes.com) for a color palette and Hex colors.  I wanted something quite muted and calming so that the text and images would stand out clearly against the background.
 I used the color picker to choose the hover color on the button for the contact form.  I wanted the color to compliment the images on the home and contact pages.  I chose a soft cream color for the background for all the pages to be less harsh than just the white.
 ADD SCREEN GRAB FROM HTML COLOR CODES . COM
 
 #### Typography
 
-I used Google Fonts(https://fonts.google.com/) for the fonts Cinzel and Play. I felt that Cinzel looked contemporary and professional, and Play complimented it for the main bodies of text keeping the content clear and readable. https://fonts.google.com/specimen/Cinzel?query=cinzel#standard-styles https://fonts.google.com/specimen/Play?query=play#standard-styles 
+I used [Google Fonts](https://fonts.google.com/) for the fonts Cinzel and Play. I felt that Cinzel looked contemporary and professional, and Play complimented it for the main bodies of text keeping the content clear and readable. [Cinzel](https://fonts.google.com/specimen/Cinzel?query=cinzel#standard-styles) [Play](https://fonts.google.com/specimen/Play?query=play#standard-styles)
 ADD SCREEN GRAB OF BOTH FONTS
 
 #### Images
 
-I was inspired by the use of Font Awesome Icons(https://fontawesome.com/icons) in the Love Running Project section of the course, so I decided to make each of the headers more eye-catching with a relevant icon, copying the HTML code for each icon before posting it into the relevant sections. Below is an example of the icon I used on the setup page for the heading 'Your work space'. ADD SCREEN GRAB OF FONT AWESOME SITE LAPTOP-HOUSE AS AN EXAMPLE All the images I used for my project were taken from Pexels(https://www.pexels.com/). The images I used for index.html and contact.html were largly calm and muted colors and subject, with soft colors and a relaxed scene. The image I used for the header and footer elements is a partial view of a flower which I feel compliments the overall feel of the site. The images for each of the h2 elements are relevant to the title and paragraph content.
+I was inspired by the use of [Font Awesome Icons](https://fontawesome.com/icons) in the Love Running Project section of the course, so I decided to make each of the headers more eye-catching with a relevant icon, copying the HTML code for each icon before posting it into the relevant sections. Below is an example of the icon I used on the setup page for the heading 'Your work space'. ADD SCREEN GRAB OF FONT AWESOME SITE LAPTOP-HOUSE AS AN EXAMPLE All the images I used for my project were taken from [Pexels](https://www.pexels.com/). The images I used for index.html and contact.html were largly calm and muted colors and subject, with soft colors and a relaxed scene. The image I used for the header and footer elements is a partial view of a flower which I feel compliments the overall feel of the site. The images for each of the h2 elements are relevant to the title and paragraph content.
 
 #### Animations and Transitions
 
@@ -92,7 +92,7 @@ When you first open the home page the image zooms in slightly which adds a fun e
 
 ### Wireframes
 
-I drafted a layout of my project using Balsamiq Wireframes. I initially designed all content to be on the same page which is reflected in my original mockup linked below. When doing the project I realised that due to the amount of content I was putting in this would become a bit too cumbersome, and so changed my layout whilst doing the project so that each section will have it's own page. https://www.icloud.com/iclouddrive/029Tjjuuuh9lCl3pQe5N6pqWQ#First_Project
+I drafted a layout of my project using Balsamiq Wireframes. I initially designed all content to be on the same page which is reflected in my original mockup linked below. When doing the project I realised that due to the amount of content I was putting in this would become a bit too cumbersome, and so changed my layout whilst doing the project so that each section will have it's own page. [Balsamiq](https://www.icloud.com/iclouddrive/029Tjjuuuh9lCl3pQe5N6pqWQ#First_Project)
 
 ### Features
 
@@ -103,12 +103,12 @@ ADD SCREEN GRAB OF HEADER
 
 #### Footer
 
-I followed much the same process for the footer that I did for the header, though made the text a smaller font so as to be clear this was a less important than the header and content of the page. I also added a LinkedIn link by the way of the LinkedIn title image. 
+I followed much the same process for the footer that I did for the header, though made the text a smaller font so as to be clear this was a less important than the header and content of the page. I also added a LinkedIn link by the way of the LinkedIn title image.
 ADD SCREEN GRAB OF FOOTER.
 
 #### Home page
 
-I wanted to keep this simple, with an image that is relevant to the title of the site. I added the zoom in of the image and the text fade-in to make it more engaging. 
+I wanted to keep this simple, with an image that is relevant to the title of the site. I added the zoom in of the image and the text fade-in to make it more engaging.
 ADD SCREEN GRAB OF HOME PAGE
 
 #### Setup and Course and Community pages
@@ -157,9 +157,41 @@ I would like to curve the edges of the grey background for each of the sections/
         /div>↩ </section>↩
       - Unclosed element “div”.
         From line 57, column 9 to line 57, column 39
+        Code Extract: div id of frontimage-container
+
+   - on setup.html; no errors found
+
+   - on course.html; no errors found
+
+   - on community.html; 5 errors found:
+      - Text not allowed in element “iframe” in this context.
+        From line 92, column 172 to line 92, column 175
         Code Extract:
-        >↩ <div id="frontimage-container">↩
-   - on setup.html
+        rogramme"Code↩
+      - Text not allowed in element “iframe” in this context.
+        From line 93, column 1 to line 93, column 66
+        Code Extract:
+        mme">Code Institute - Take Control and Change Career</ifr
+      - Duplicate ID “iframe-1”.
+        From line 97, column 17 to line 99, column 153
+        Code Extract:
+        iframe class="youtube-video" id="iframe-1" src="https://www.youtube.com/embed/pBxeVPMg77g"↩ title="Code Institute - What is Imposter Syndrome?"↩ aria-label="A video where we speak to Dr Kara McGann in which she tells us about Impostor Syndrome and how best to cope with it"What↩
+      - Text not allowed in element “iframe” in this context.
+        From line 99, column 154 to line 99, column 157
+        Code Extract:
+        with it"What↩
+      - Text not allowed in element “iframe” in this context.
+        From line 100, column 1 to line 100, column 45
+        Code Extract:
+        it">What is Imposter Syndrome?</ifr
+
+- on contact.html; 1 error found:
+      - The “for” attribute of the “label” element must refer to a non-hidden form control.
+        From line 85, column 21 to line 85, column 52
+        Code Extract:
+        label for="contact-permission"↩
+
+- on form-feedback.html no errors found
 
 ### Cross Browser and Cross Device Testing
 
@@ -168,7 +200,7 @@ I have used a number of mobile devices sizes in dev tools to ensure the website 
 I have inputed various formats of data into the form on the contact page, and the form requires all sections to be completed including a full email; if these things are not completed correctly it returns an error message. I have purposely not made the consent button as a required input.  When the form is submitted a new page is displayed thanking the user.
 I've tested all the anchor elements for external links and ensured they open in a new browser tab.  I've also tested the internal anchor elements and ensured they go to the relevant pages within the site.
 I've manually tested the user requirements as outlined in [Overall User Experience](#Overall-User-Experience)
-I've ran my site through Lighthouse's audit https://web.dev.measure/ and the results are bellow:
+I've ran my site through Lighthouse's audit [Web Dev](https://web.dev.measure/) and the results are bellow:
 ADD SCREEN GRAB OF RESULT
 
 ### Bugs
@@ -182,57 +214,77 @@ ADD SCREEN GRAB OF RESULT
 2. Resolved bugs index.html
    - added mising </div>
 
-. Outstanding bugs
+3. Resolved bugs community.html
+   - line 92 and line 93; removed "shift" action on text
+   - line 99 and line 100; removed text witin iframe element
+   - line 97 to line 99; changed second video to have id=iframe-2 and subsequent css amendment so that styling would apply to both videos
+
+4. Outstanding bugs
 
 ### Accessibility
 
-I ran my site through Web Accessibility (https://www.webaccessibility.com/) and here are the results:
+I ran my site through [Web Accessibility](https://www.webaccessibility.com/) and here are the results:
 ADD SCREEN GRAB OF RESULTS
 
-I also ran it through Wave, Web accessibility evaluation tool (https://wave.webaim.org/) and the the results are as folows:
+I also ran it through Wave, Web accessibility evaluation tool [Wave](https://wave.webaim.org/) and the the results are as folows:
 ADD SCREEN GRAB OF RESULTS
 ***
 
 ## Deployment
 
-1. Go to the depository in Github https://github.com/SuzanneRA/Coding-for-beginners
+1. Go to the depository in [Github](https://github.com/SuzanneRA/Coding-for-beginners)
+
 2. Go to Settings by clicking the cog icon next to 'Settings' ![image](https://user-images.githubusercontent.com/96961963/152250460-cbabd953-6208-4598-81a2-675a700c80bd.png)
+
 3. Click on the Pages left menu ![image](https://user-images.githubusercontent.com/96961963/152250648-0ad06b4b-5ab6-4da6-a50e-2db8a623e54f.png)
+
 4. Click on drop down menu in Sources and select 'Main' ![image](https://user-images.githubusercontent.com/96961963/152250797-2840a8b6-3bab-4a87-ae88-baa882738daa.png)
+
 5. Click save and presented with Success message and deployed URL ![image](https://user-images.githubusercontent.com/96961963/152250896-b1932228-9efe-423c-b10f-d84bc38e3953.png)
+
 ***
 
 ## Technologies Used
 
 1. [Balsamiq](https://balsamiq.com/)
     - I used Balsamiq to create a very rough outline of the site and I added exentsive paragraph content here too: [wireframe](https://www.icloud.com/iclouddrive/029Tjjuuuh9lCl3pQe5N6pqWQ#First_Project)
+
 2. [Font Awesome](https://fontawesome.com/)
     - I used icons from version 5 of Font Awesome
+
 3. [Pexels](https://www.pexels.com/)
     - This was where I obtained all of my images - they are cost and royalty free and of good quality.
+
 4. [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
     - I started to become more comfortable with using this as the project went on and really saw how useful it is in de-bugging and making changes before commiting them on gitpod.
+
 5. [Google Fonts](https://fonts.google.com/)*
     - I used Google Fonts as this was suggested within the course - there was a huge amount of choice which I really liked and it made it quite easy to pick fonts that I wanted.
+
 6. [Favicon](https://favicon.io/)
     - My mentor introduced me to this as an optional extra and I decided to use it and am pleased with the result.
+
 7. [HTML Color Codes](www.https://htmlcolorcodes.com)
     - I used this to firstly choose the colours and secondly to find out their hex values.
+
 8. [Lighthouse's audit](https://web.dev.measure/)
     - This gave me a good indication as to how my site was performing, especially in relation to accessability, best practices and search engine optimization.
+
 9. [Web Accessibility](https://www.webaccessibility.com/) and [Wave](https://wave.webaim.org/)
     - Accessability is to users with disabilities is incredibly important, so I chose these two tools in the final stages of my project to ensure I was on track with this important element of website design.
+
 10. [W3C Markup Validation Service](validator.w3.org)
+
 ***
 
 ## Credits
 
 ### Content
 
-- I used content from fellow student Dave Horrocks' Readme file on his submitted first project Katie Horrocks - Wildlife Photograhy (https://github.com/DaveyJH/ci-portfolio-one-v4/blob/main/README.md#Initial-Concept), in particular the testing and technologies used section 
+- I used content from fellow student Dave Horrocks' Readme file on his submitted first project [Katie Horrocks - Wildlife Photograhy](https://github.com/DaveyJH/ci-portfolio-one-v4/blob/main/README.md#Initial-Concept), in particular the testing and technologies used section
   though I have heavily modified both of these to fit my project.
-- I used the contact form from fellow student Anya Hush on her first project Sunrise Yoga (https://github.com/Code-Institute-Submissions/sunrise-yoga) as a strong basis for my contact form.
-- I used snippits of code from the answers on Stackoverflow for the question centered around how to fade in text on an image (https://stackoverflow.com/questions/27883032/css-fade-out-picture-and-fade-in-text) for my home page.
+- I used the contact form from fellow student Anya Hush on her first project [Sunrise Yoga](https://github.com/Code-Institute-Submissions/sunrise-yoga) as a strong basis for my contact form.
+- I used snippits of code from the answers on Stackoverflow for the question centered around how to fade in text on an image [Stackoverflor](https://stackoverflow.com/questions/27883032/css-fade-out-picture-and-fade-in-text) for my home page.
 - I have used code supplied to my by my mentor Malia Havlicek in particular in the css for my two YouTube videos, though went on to modify this supplied code to provide better user experience.
 
 ### Media
@@ -246,11 +298,10 @@ ADD SCREEN GRAB OF RESULTS
 - My mentor Malia Havlicek, who has challenged me and provided insight into some issues I faced.  I have quickly learnt with Malia that she will not simply give me the answers but will be a guiding light in times of need!
 - Lastly but by no means least my fellow students on Slack.  More often than not I was able to solve the issue before I received an answer, but when I was unable to do this or it was simply taking too long for me to figure it out
   on my own David Bowers in particular was incredibly helpful and insightful.
-- I used MDN Web Docs (https://developer.mozilla.org/en-US/) as a general guide throughout, and it has proven helpful when I have encountered problems or simply for the times I wanted to add different elements within my project and didn't know how to.
+- I used [MDN Web Docs](https://developer.mozilla.org/en-US/) as a general guide throughout, and it has proven helpful when I have encountered problems or simply for the times I wanted to add different elements within my project and didn't know how to.
 
 ### Personal Development
 
-- I have come so far whilst doing this project, and although I have sought help as highlighted above, I often preferred to try and work it out for myself.   This has proved time consuming but my knowledge has increased day by day, 
-  and even when I'm not sure exactly how to solve an issue, I am finding that I am often on the right track in my efforts.  I realise that I have so, so much to learn and am already looking back at this project and seeing how I could 
+- I have come so far whilst doing this project, and although I have sought help as highlighted above, I often preferred to try and work it out for myself.   This has proved time consuming but my knowledge has increased day by day,
+  and even when I'm not sure exactly how to solve an issue, I am finding that I am often on the right track in my efforts.  I realise that I have so, so much to learn and am already looking back at this project and seeing how I could
   have done things better, but even so I am proud of what I have achieved.
-***
