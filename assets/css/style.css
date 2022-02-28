@@ -141,6 +141,7 @@ nav ul {
     padding: 20px;
     position: absolute;
     top: 5px;
+    left: 25px;
     right: 25px;
     background-color: rgb(249 246 240 / 50%);
 }
@@ -335,10 +336,11 @@ footer {
     width: 100%;
 }
    
-.contact-image {
-    width: 100%;
+#contact-image {
+    background: url('../images/meditate.webp') no-repeat center;
+    background-size: cover;
     height: 250px;
-    object-fit: cover;
+    margin-top: 100px;
 }
 
 #contact-form {
@@ -365,6 +367,7 @@ footer {
  }
 
  #name-sign-up {
+    width: 200px;
     border: 0;
     border-radius: 10px;
     padding-left: 5px;
@@ -373,6 +376,7 @@ footer {
 }
 
 #email-sign-up {
+    width: 200px;
     border: 0;
     border-radius: 10px;
     padding-left: 5px;
@@ -381,6 +385,7 @@ footer {
 }
 
 #text-area {
+    width: 200px;
     border: 0;
     border-radius: 10px;
     padding: 5px;
