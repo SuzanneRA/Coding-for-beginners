@@ -162,7 +162,9 @@ I would like to curve the edges of the grey background for each of the sections/
 ### Validation Testing
 
 #### [CSS Validator with CSS Portal](https://www.cssportal.com/css-validator/)
+
 This resulted in 4 errors
+
 1. error 1: Unexpected token '2500x' at line 203, col 13. height: 2500x;
 2. error 2: Unexpected token '2500x' at line 239, col 13. height: 2500x;
 3. error 3: Unexpected token '2500x' at line 274, col 13. height: 2500x;
@@ -191,7 +193,7 @@ This resulted in 4 errors
         mme">Code Institute - Take Control and Change Career</ifr
 3. Duplicate ID “iframe-1”. From line 97, column 17 to line 99, column 153
         Code Extract:
-        iframe class="youtube-video" id="iframe-1" src= https: //www. youtube.com /embed/ pBxeVPMg77g ↩ title="Code Institute - What is Imposter Syndrome?"↩ aria-label="A video where we speak to Dr Kara McGann in which she tells us about Impostor Syndrome and how best to cope with it"What↩
+        iframe class="youtube-video" id="iframe-1" src= https: // www youtube.com /embed/ pBxeVPMg77g ↩ title="Code Institute - What is Imposter Syndrome?"↩ aria-label="A video where we speak to Dr Kara McGann in which she tells us about Impostor Syndrome and how best to cope with it"What↩
 4. Text not allowed in element “iframe” in this context. From line 99, column 154 to line 99, column 157
         Code Extract:
         with it"What↩
@@ -224,27 +226,34 @@ I've ran my site through Lighthouse's audit [Web Dev](https://web.dev.measure/) 
 
 ### Bugs
 
-1. Resolved bugs for CSS
-   - error on line 203 css; changed height to 100%
-   - error on line 239 css; changed height to 100%
-   - error on line 274 css; changed height to 100%
-   - error on line 414 css; changed height to 200px and margin-top to 300px
-   - error on line 161 - removed opacity: 1s
+#### Resolved bugs for CSS
 
-2. Resolved bug for index.html
-   - added missing end bracket for div
-   - deleted obsolete opacity from fade-text id
+1. error on line 203 css; changed height to 100%
+2. error on line 239 css; changed height to 100%
+3. error on line 274 css; changed height to 100%
+4. error on line 414 css; changed height to 200px and margin-top to 300px
+5. (from W3C CSS Validator) error on line 161 - removed opacity: 1s
 
-3. Resolved bugs for community.html
-   - line 92 and line 93; removed "shift" action on text
-   - line 99 and line 100; removed text within iframe element
-   - line 97 to line 99; changed second video to have id=iframe-2 and subsequent css amendment so that styling would apply to both videos
+#### Resolved bug for index.html
 
-4. Resolved bug for contact.html
-   - removed 'for' attribute
+1. added missing end bracket for div
+2. deleted obsolete opacity from fade-text id
 
-5. Outstanding bugs
-   - on index.html advisory error or including a heading on section element; I do not wish for there to be a heading at this point as this will distract from the user experience and overall look of the site
+#### Resolved bugs for community.html
+
+1. line 92; removed "shift" action on text
+2. line 93; removed "shift" action on text
+3. line 97 to line 99; changed second video to have id=iframe-2 and subsequent css amendment so that styling would apply to both videos
+4. line 99; removed text within iframe element
+5. line 100; removed text within iframe element
+
+#### Resolved bug for contact.html
+
+1. removed 'for' attribute
+
+#### Outstanding bugs
+
+1. on index.html advisory error for including a heading on section element; I do not wish for there to be a heading at this point as this will distract from the user experience and overall look of the site
 
 ### Accessibility
 
@@ -318,7 +327,7 @@ I also ran it through [Wave](https://wave.webaim.org/) Web accessibility evaluat
 
 - I used content from fellow student Dave Horrocks' Readme file on his submitted first project [Katie Horrocks - Wildlife Photograhy](https://github.com/DaveyJH/ci-portfolio-one-v4/blob/main/README.md#Initial-Concept), in particular the Test and Technologies used section, and point 1 in Overall User Experience though I have heavily modified both of these to fit my project.
 - I used the contact form from fellow student Anya Hush on her first project [Sunrise Yoga](https://github.com/Code-Institute-Submissions/sunrise-yoga) as a strong basis for my contact form.
-- I used snippets of code from the answers on Stackoverflow for the question centred around how to fade in text on an image [Stackoverflor](https://stackoverflow.com/questions/27883032/css-fade-out-picture-and-fade-in-text) for my home page.
+- I used snippets of code from the answers on Stackoverflow for the question centred around how to fade in text on an image [Stackoverflow](https://stackoverflow.com/questions/27883032/css-fade-out-picture-and-fade-in-text) for my home page.
 - I have used code supplied to my by my mentor Malia Havlicek in particular in the css for my two YouTube videos, though went on to modify this supplied code to provide better user experience.
 
 ### Media
