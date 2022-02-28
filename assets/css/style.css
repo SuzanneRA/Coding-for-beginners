@@ -350,12 +350,11 @@ footer {
     color: #5c5a58;
     width: 100%;
     margin-bottom: 25px;
-    padding: 0;
     border: 0;
     flex-direction: column;
 }
 
-#contact-form h3 {
+.contact-heading {
     margin: 25px;
     text-align: center;
 }
@@ -474,11 +473,6 @@ form textarea {
 /* media queries screen min width 500px */
 
 @media screen and (min-width: 500px) and (orientation: portrait) {
-    /* all */
-    h2 {
-        margin-top: 10px;
-    }
-
     /* index.html */
     #cover-text {
         margin-left: 10px;
@@ -621,10 +615,6 @@ form textarea {
         height: 500px;
     }
 
-    #contact-form h3 {
-        font-size: 100%;
-    }
-
     #name-sign-up {
         width: 300px;
         height: 30px;
@@ -722,10 +712,6 @@ form textarea {
     #contact-form {
         height: 600px;
         margin-top: 75px;
-    }
-
-    #contact-form h3 {
-        font-size: 125%;
     }
 
     #name-sign-up {

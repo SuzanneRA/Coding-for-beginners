@@ -163,12 +163,14 @@ I would like to curve the edges of the grey background for each of the sections/
 
 #### [CSS Validator with CSS Portal](https://www.cssportal.com/css-validator/)
 
-This resulted in 4 errors
+This resulted in  errors
 
 1. error 1: Unexpected token '2500x' at line 203, col 13. height: 2500x;
 2. error 2: Unexpected token '2500x' at line 239, col 13. height: 2500x;
 3. error 3: Unexpected token '2500x' at line 274, col 13. height: 2500x;
-4. error 4:  Unexpected token '500x' at line 414, col 13. height: 500x;
+4. error 4: Unexpected token '500x' at line 414, col 13. height: 500x;
+5. error 5: Expected (color) but found 'rgb(249 246 240 / 50%)'.background-color: rgb(249 246 240 / 50%); line 146
+6. error 6: Expected (<color>) but found 'rgb(249 246 240 / 50%)'.background-color: rgb(249 246 240 / 50%); line 463
 
 #### [HTML Validator with Free Formatter](https://www.freeformatter.com/html-validator.html)
 
@@ -234,6 +236,8 @@ I've ran my site through Lighthouse's audit [Web Dev](https://web.dev/measure/?g
 2. error on line 239 css; changed height to 100%
 3. error on line 274 css; changed height to 100%
 4. error on line 414 css; changed height to 200px and margin-top to 300px
+5. error on line 146 css; added commas and changed percentage to decimal
+6. error on line 463 css; added commas and changed percentage to decimal
 5. (from W3C CSS Validator) error on line 161 - removed opacity: 1s
 
 #### Resolved bug for index.html
