@@ -118,7 +118,7 @@ I drafted a layout of my project using [Balsamiq Wireframes](https://balsamiq.co
 
 I used the Cinzel font to add to the professional feel of the site. I wanted an image behind the text to aid visual impact and chose a neutral image containing part of a flower. As I referenced plants later on in my site the use of a flower was not out of context. I want the text to stay to the left so that it did not overlay the flower which could cause some of the letters to become lost in the image. I had originally started with a different image but the colours were too dark and made the header too prominent detracting from the overall look I was going for.
 
-![Screenshot 2022-02-28 at 14 04 53](https://user-images.githubusercontent.com/96961963/155996484-6bd0ea62-2b1d-45ba-b2bb-1ba2b31120da.png)
+![Screenshot 2022-02-28 at 14 23 27](https://user-images.githubusercontent.com/96961963/155999308-79e195d7-243b-407b-81a2-bba8cfebdd99.png)
 
 #### Footer
 
@@ -130,7 +130,7 @@ I followed much the same process for the footer that I did for the header, thoug
 
 I wanted to keep this simple, with an image that is relevant to the title of the site. I added the zoom-in of the image and the text fade-in to make it more engaging.
 
-![Screenshot 2022-02-28 at 14 07 01](https://user-images.githubusercontent.com/96961963/155996798-9c4367b8-4c55-41ec-acaf-3c15fe171cd8.png)
+![Screenshot 2022-02-28 at 14 24 05](https://user-images.githubusercontent.com/96961963/155999408-7368b1ba-fa0f-43c6-8ca4-f6dc5d88f155.png)
 
 #### Setup and Course and Community pages
 
