@@ -1,5 +1,7 @@
 # Portfolio Project 1 - HTML/CSS Essentials
 
+<img width="997" alt="Screenshot 2022-02-28 at 13 50 17" src="https://user-images.githubusercontent.com/96961963/155994391-ff56b8d2-59cc-42ee-b689-f582853c6e6b.png">
+
 ## Author
 
 SUZANNE ASHFORD
@@ -17,7 +19,7 @@ SUZANNE ASHFORD
 
 - [Objective](#Objective)
 - [Project Goals](#Project-Goals)
-- [UX User Experience Design](#UX-User-Experience-Design)
+- [UX; User Experience Design](#UX;User-Experience-Design)
   - [Overall User Experience](#Overall-User-Experience)
   - [Design Choices](#Design-Choices)
     - [Colours](#Colours)
@@ -160,24 +162,23 @@ I would like to curve the edges of the grey background for each of the sections/
    - on course.html; no errors found
 
    - on community.html; 5 errors found:
-   -
-      - Text not allowed in element iframe in this context.
+         - Text not allowed in element “iframe” in this context.
         From line 92, column 172 to line 92, column 175
         Code Extract:
         rogramme"Code↩
-      - Text not allowed in element “iframe” in this context.
+         - Text not allowed in element “iframe” in this context.
         From line 93, column 1 to line 93, column 66
         Code Extract:
         mme">Code Institute - Take Control and Change Career</ifr
-      - Duplicate ID “iframe-1”.
+         - Duplicate ID “iframe-1”.
         From line 97, column 17 to line 99, column 153
         Code Extract:
-        iframe class="youtube-video" id="iframe-1" src="https://www.youtube.com/embed/pBxeVPMg77g"↩ title="Code Institute - What is Imposter Syndrome?"↩ aria-    label="A video where we speak to Dr Kara McGann in which she tells us about Impostor Syndrome and how best to cope with it"What↩
-      - Text not allowed in element “iframe” in this context.
+        iframe class="youtube-video" id="iframe-1" src="https://www.youtube.com/embed/pBxeVPMg77g"↩ title="Code Institute - What is Imposter Syndrome?"↩ aria-label="A video where we speak to Dr Kara McGann in which she tells us about Impostor Syndrome and how best to cope with it"What↩
+         - Text not allowed in element “iframe” in this context.
         From line 99, column 154 to line 99, column 157
         Code Extract:
         with it"What↩
-      - Text not allowed in element “iframe” in this context.
+         - Text not allowed in element “iframe” in this context.
         From line 100, column 1 to line 100, column 45
         Code Extract:
         it">What is Imposter Syndrome?</ifr
@@ -309,12 +310,14 @@ ADD SCREEN GRAB OF RESULTS
 - I want to acknowledge Dave Horrocks who is a student on the same course; his help and support has been invaluable to me, especially at the start of the project when I was suffering from Imposter Syndrome and he was able to guide me though
   the process and make me believe in my abilities again.  
 - My mentor Malia Havlicek, who has challenged me and provided insight into some issues I faced.  I have quickly learnt with Malia that she will not simply give me the answers but will be a guiding light in times of need!
-- Lastly but by no means least my fellow students on Slack.  More often than not I was able to solve the issue before I received an answer, but when I was unable to do this or it was simply taking too long for me to figure it out
-  on my own David Bowers in particular was incredibly helpful and insightful.
-- I used [MDN Web Docs](https://developer.mozilla.org/en-US/) as a general guide throughout, and it has proven helpful when I have encountered problems or simply for the times I wanted to add different elements within my project and didn't know how to.
 
-### Personal Development
 
-- I have come so far whilst doing this project, and although I have sought help as highlighted above, I often preferred to try and work it out for myself.   This has proved time consuming but my knowledge has increased ten-fold,
-  and even when I'm not sure exactly how to solve an issue, I am finding that I am often on the right track in my efforts.  I realise that I have so, so much to learn and am already looking back at this project and seeing how I could
-  have done things better and I'm sure there is some code in my CSS which is not relevant, but even so I am proud of what I have achieved.
+ 
+
+
+
+
+ 
+
+
+
