@@ -232,7 +232,7 @@ I have used a number of mobile device sizes in dev tools to ensure the website f
 I have inputted various formats of data into the form on the contact page, and the form requires all sections to be completed including a full email; if these things are not completed correctly it returns an error message. I have purposely not made the consent button as a required input.  When the form is submitted a new page is displayed thanking the user.
 I've tested all the anchor elements for external links and ensured they open in a new browser tab.  I've also tested the internal anchor elements and ensured they go to the relevant pages within the site.
 I've manually tested the user requirements as outlined in [Overall User Experience](#Overall-User-Experience).
-I've ran my site through Lighthouse's audit [Web Dev](https://web.dev/measure/?gclid=EAIaIQobChMI-Iqi79ei9gIVCLTtCh19EgbiEAAYASAAEgJ78PD_BwE) and the results are below:
+I've ran my site through Lighthouse's audit [Web Dev](https://web.dev/measure/?gclid=EAIaIQobChMI-Iqi79ei9gIVCLTtCh19EgbiEAAYASAAEgJ78PD_BwE) and the results are below.  I am aware that the performance could be better and the images for both my index.html and contact.html are slowing things down, however due to time constraints and the issues I have had with the W3C Validators I am reluctant to change anything at this late stage.  The performance is not so low that it makes the site unsable but I am aware that users typically want to be presented with the content instantly and on the contact.html the image does take a second or two to load.
 
 ![Screenshot 2022-02-28 at 14 13 00](https://user-images.githubusercontent.com/96961963/155997673-36595b7c-0403-4ce2-a0c2-6306487cb0b4.png)
 
