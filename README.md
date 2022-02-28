@@ -77,31 +77,46 @@ The goal of this website is to provide a brief, personal approach to making your
 
 I used [HTML Color Codes](www.https://htmlcolorcodes.com) for a colour palette and Hex colors.  I wanted something quite muted and calming so that the text and images would stand out clearly against the background.
 I used the colour picker to choose the hover colour on the button for the contact form.  I wanted the colour to compliment the images on the home and contact pages.  I chose a soft cream colour for the background for all the pages to be less harsh than just the white.
-ADD SCREEN GRAB FROM HTML COLOR CODES . COM
+
+![Screenshot 2022-02-28 at 13 56 01](https://user-images.githubusercontent.com/96961963/155995191-58cad899-f01e-41b0-867b-eb3fcbf1d04f.png)
 
 #### Typography
 
 I used [Google Fonts](https://fonts.google.com/) for the fonts [Cinzel](https://fonts.google.com/specimen/Cinzel?query=cinzel#standard-styles) and [Play](https://fonts.google.com/specimen/Play?query=play#standard-styles). I felt that Cinzel looked contemporary and professional, and Play complimented it for the main bodies of text keeping the content clear and readable.
-ADD SCREEN GRAB OF BOTH FONTS
+
+![Screenshot 2022-02-28 at 13 57 36](https://user-images.githubusercontent.com/96961963/155995401-2afd9404-d15a-4543-968d-be4ba6fd1a52.png)
+
+![Screenshot 2022-02-28 at 13 58 08](https://user-images.githubusercontent.com/96961963/155995470-7c3e785b-5d73-4076-ad30-8680010a152a.png)
 
 #### Images
 
-I was inspired by the use of [Font Awesome Icons](https://fontawesome.com/icons) in the Love Running Project section of the course, so I decided to make each of the headers more eye-catching with a relevant icon, copying the HTML code for each icon before posting it into the relevant sections. Below is an example of the icon I used on the setup page for the heading 'Your work space'. ADD SCREEN GRAB OF FONT AWESOME SITE LAPTOP-HOUSE AS AN EXAMPLE All the images I used for my project were taken from [Pexels](https://www.pexels.com/). The images I used for index.html and contact.html were largely calm and muted colours and subject, with soft colours and a relaxed scene. The image I used for the header and footer elements is a partial view of a flower which I feel compliments the overall feel of the site. The images for each of the h2 elements are relevant to the title and paragraph content.
+I was inspired by the use of [Font Awesome Icons](https://fontawesome.com/icons) in the Love Running Project section of the course, so I decided to make each of the headers more eye-catching with a relevant icon, copying the HTML code for each icon before posting it into the relevant sections. Below is an example of the icon I used on the setup page for the heading 'Your work space'.
+
+![Screenshot 2022-02-28 at 13 59 43](https://user-images.githubusercontent.com/96961963/155995721-fc42adde-c635-4410-9c94-818f184dfffb.png)
+
+All the images I used for my project were taken from [Pexels](https://www.pexels.com/). The images I used for index.html and contact.html were largely calm and muted colours and subject, with soft colours and a relaxed scene. The image I used for the header and footer elements is a partial view of a flower which I feel compliments the overall feel of the site. The images for each of the h2 elements are relevant to the title and paragraph content.
 
 #### Animations and Transitions
 
-When you first open the home page the image zooms in slightly which adds a fun element and draws the viewers eye to the image and text within the image. I learnt how to do this whilst doing the Love Running Project within the course and used those learnt skills to implement it in my own project. Below you will see a screen shot of the text displayed on mouse hover on the front image (which is only displayed on a desktop). I am very interested in what CSS can offer in terms of interactivity and I felt it added a pleasing visual to those viewing the site on a desktop. ADD SCREEN SHOT OF FADE TEXT I want the menu to have a contemporary feel; to achieve this I put left and right borders on a memu item to highlight what page you are on, whilst also making it clear what page you have navigated to. I have including just the left border on the menu list to highlight what menu page you can select before you have selected it which is in contrast to both left and right borders. To make it clear when you have the mouse hovered on the submit button as part of the form on the contact page, I changed the background colour to a peachy tone to match some of the colours in the images on the home and contact pages.
+When you first open the home page the image zooms in slightly which adds a fun element and draws the viewers eye to the image and text within the image. I learnt how to do this whilst doing the Love Running Project within the course and used those learnt skills to implement it in my own project. Below you will see a screen shot of the text displayed on mouse hover on the front image (which is only displayed on a desktop). I am very interested in what CSS can offer in terms of interactivity and I felt it added a pleasing visual to those viewing the site on a desktop.
+
+![Screenshot 2022-02-28 at 14 01 07](https://user-images.githubusercontent.com/96961963/155995926-c1488ee9-d9e6-4541-9f1a-99d34aad0ba2.png)
+
+I want the menu to have a contemporary feel; to achieve this I put left and right borders on a memu item to highlight what page you are on, whilst also making it clear what page you have navigated to. I have including just the left border on the menu list to highlight what menu page you can select before you have selected it which is in contrast to both left and right borders. To make it clear when you have the mouse hovered on the submit button as part of the form on the contact page, I changed the background colour to a peachy tone to match some of the colours in the images on the home and contact pages.
 
 ### Wireframes
 
-I drafted a layout of my project using [Balsamiq Wireframes](https://balsamiq.com/wireframes/).  I initially designed all content to be on the same page which is reflected in my original mock-up shown below. When doing the project I realised that due to the amount of content I was putting in this would become a bit too cumbersome, and so changed my layout whilst doing the project so that each section will have its own page. ADD SCREEN GRABS OF BALSAMIQ MOCK UP.
+I drafted a layout of my project using [Balsamiq Wireframes](https://balsamiq.com/wireframes/).  I initially designed all content to be on the same page which is reflected in my original mock-up shown below. When doing the project I realised that due to the amount of content I was putting in this would become a bit too cumbersome, and so changed my layout whilst doing the project so that each section will have its own page.
+
+![Screenshot 2022-02-28 at 12 03 10](https://user-images.githubusercontent.com/96961963/155996138-09f9f9ae-7bc8-4c01-93bc-81680fe81c75.png)
+![Screenshot 2022-02-28 at 12 03 35](https://user-images.githubusercontent.com/96961963/155996155-95a67534-169f-48c4-98a2-d618362baf07.png)
 
 ### Features
 
 #### Header
 
 I used the Cinzel font to add to the professional feel of the site. I wanted an image behind the text to aid visual impact and chose a neutral image containing part of a flower. As I referenced plants later on in my site the use of a flower was not out of context. I want the text to stay to the left so that it did not overlay the flower which could cause some of the letters to become lost in the image. I had originally started with a different image but the colours were too dark and made the header too prominent detracting from the overall look I was going for.
-ADD SCREEN GRAB OF HEADER
+
 
 #### Footer
 
@@ -310,14 +325,3 @@ ADD SCREEN GRAB OF RESULTS
 - I want to acknowledge Dave Horrocks who is a student on the same course; his help and support has been invaluable to me, especially at the start of the project when I was suffering from Imposter Syndrome and he was able to guide me though
   the process and make me believe in my abilities again.  
 - My mentor Malia Havlicek, who has challenged me and provided insight into some issues I faced.  I have quickly learnt with Malia that she will not simply give me the answers but will be a guiding light in times of need!
-
-
- 
-
-
-
-
- 
-
-
-
