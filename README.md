@@ -38,8 +38,8 @@ SUZANNE ASHFORD
 - [Testing](#Testing)
   - [Validation Testing](#Validation-Testing)
   - [Cross Browser and Cross Device Testing](#Cross-Browser-and-Cross-Device-Testing)
-  - [Bugs]
-  - [Accessibility]
+  - [Bugs](#Bugs)
+  - [Accessibility](#Accessibility)
 - [Deployment](#Deployment)
 - [Technologies Used](#Technologies-Used)
 - [Credits](#Credits)
