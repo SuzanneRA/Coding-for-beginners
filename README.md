@@ -220,7 +220,7 @@ I have used a number of mobile device sizes in dev tools to ensure the website f
 I have inputted various formats of data into the form on the contact page, and the form requires all sections to be completed including a full email; if these things are not completed correctly it returns an error message. I have purposely not made the consent button as a required input.  When the form is submitted a new page is displayed thanking the user.
 I've tested all the anchor elements for external links and ensured they open in a new browser tab.  I've also tested the internal anchor elements and ensured they go to the relevant pages within the site.
 I've manually tested the user requirements as outlined in [Overall User Experience](#Overall-User-Experience).
-I've ran my site through Lighthouse's audit [Web Dev](https://web.dev.measure/) and the results are below:
+I've ran my site through Lighthouse's audit [Web Dev](https://web.dev/measure/?gclid=EAIaIQobChMI-Iqi79ei9gIVCLTtCh19EgbiEAAYASAAEgJ78PD_BwE) and the results are below:
 
 ![Screenshot 2022-02-28 at 14 13 00](https://user-images.githubusercontent.com/96961963/155997673-36595b7c-0403-4ce2-a0c2-6306487cb0b4.png)
 
@@ -301,16 +301,16 @@ I also ran it through [Wave](https://wave.webaim.org/) Web accessibility evaluat
 6. [Favicon](https://favicon.io/)
     - My mentor introduced me to this as an optional extra and I decided to use it and am pleased with the result.
 
-7. [HTML Color Codes](www.https://htmlcolorcodes.com)
+7. [HTML Color Codes](https://htmlcolorcodes.com/)
     - I used this to firstly choose the colours and secondly to find out their hex values.
 
-8. [Lighthouse's audit](https://web.dev.measure/)
+8. [Lighthouse's audit](https://web.dev/measure/?gclid=EAIaIQobChMI-Iqi79ei9gIVCLTtCh19EgbiEAAYASAAEgJ78PD_BwE)
     - This gave me a good indication as to how my site was performing, especially in relation to accessibility, best practices and search engine optimization.
 
 9. [Web Accessibility](https://www.webaccessibility.com/) and [Wave](https://wave.webaim.org/)
     - Accessibility is to users with disabilities is incredibly important, so I chose these two tools in the final stages of my project to ensure I was on track with this important element of website design.
 
-10. [W3C Markup Validation Service](validator.w3.org)
+10. [W3C Markup Validation Service](https://validator.w3.org/)
     - I copied the code from my html and css and ran it through the relevant checks via the direct input method.
 
 11. [CSS Validator](https://www.cssportal.com/css-validator/)
@@ -325,17 +325,26 @@ I also ran it through [Wave](https://wave.webaim.org/) Web accessibility evaluat
 
 ### Content
 
-- I used content from fellow student Dave Horrocks' Readme file on his submitted first project [Katie Horrocks - Wildlife Photograhy](https://github.com/DaveyJH/ci-portfolio-one-v4/blob/main/README.md#Initial-Concept), in particular the Test and Technologies used section, and point 1 in Overall User Experience though I have heavily modified both of these to fit my project.
-- I used the contact form from fellow student Anya Hush on her first project [Sunrise Yoga](https://github.com/Code-Institute-Submissions/sunrise-yoga) as a strong basis for my contact form.
-- I used snippets of code from the answers on Stackoverflow for the question centred around how to fade in text on an image [Stackoverflow](https://stackoverflow.com/questions/27883032/css-fade-out-picture-and-fade-in-text) for my home page.
+  - I used content from fellow student Dave Horrocks' Readme file on his submitted first project [Katie Horrocks - Wildlife Photograhy](https://github.com/DaveyJH/ci-portfolio-one-v4/blob/main/README.md#Initial-Concept), in particular the Test and Technologies used section, and point 1 in Overall User Experience though I have heavily modified both of these to fit my project.
+  
+  - I used the contact form from fellow student Anya Hush on her first project [Sunrise Yoga](https://github.com/Code-Institute-Submissions/sunrise-yoga) as a strong basis for my contact form.
+  
+  - I used snippets of code from the answers on Stackoverflow for the question centred around how to fade in text on an image [Stackoverflow](https://stackoverflow.com/questions/27883032/css-fade-out-picture-and-fade-in-text) for my home page.
+  
 - I have used code supplied to my by my mentor Malia Havlicek in particular in the css for my two YouTube videos, though went on to modify this supplied code to provide better user experience.
 
 ### Media
 
-- As mentioned above, all images were taken from [Pexels](https://www.pexels.com/)
+  - As mentioned above, all images were taken from [Pexels](https://www.pexels.com/)
 
 ### Acknowledgments
 
-- I want to acknowledge Dave Horrocks who is a student on the same course; his help and support has been invaluable to me, especially at the start of the project when I was suffering from Imposter Syndrome and he was able to guide me though
-  the process and make me believe in my abilities again.  
-- My mentor Malia Havlicek, who has challenged me and provided insight into some issues I faced.  I have quickly learnt with Malia that she will not simply give me the answers but will be a guiding light in times of need!
+  - I want to acknowledge Dave Horrocks who is a student on the same course; his help and support has been invaluable to me, especially at the start of the project when I was suffering from Imposter Syndrome and he was able to guide me though the process and make me believe in my abilities again.  
+  
+  - My mentor Malia Havlicek, who has challenged me and provided insight into some issues I faced.  I have quickly learnt with Malia that she will not simply give me the answers but will be a guiding light in times of need!
+
+### Personal Development 
+
+  - When I look back a couple of months ago to when I hadn't ever touched code in my life to where I am now, I am very proud to say that I've been able to do this project.  I took the approach to try and sort out any issues myself, only turning to help when I really needed to or where it was taking too long to try and figure it out myself, and although this approach was very time consuming my knowledge has benifited hugely. 
+  - I look back at this project and there are things I would most certainly change if I did it again, and I'm sure there's some CSS content which doesn't need to be there, but I've done a huge amount of learning going through this process and I'm confident my learning curve will continue ten-fold on the next project.
+
