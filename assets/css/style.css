@@ -391,6 +391,10 @@ form textarea {
     height: auto;
 }
 
+#checkbox {
+    margin-left: 20px;
+}
+
 .button {
     font: inherit;
     font-size: 100%;
