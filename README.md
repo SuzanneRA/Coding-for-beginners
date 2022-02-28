@@ -279,6 +279,13 @@ ADD SCREEN GRAB OF RESULTS
     - Accessability is to users with disabilities is incredibly important, so I chose these two tools in the final stages of my project to ensure I was on track with this important element of website design.
 
 10. [W3C Markup Validation Service](validator.w3.org)
+    - I copied the code from my html and css and ran it through the relevant checks via the direct input method.
+
+11. [CSS Validator](https://www.cssportal.com/css-validator/)
+    - I inputted my CSS via direct input into this tool.
+
+12. [HTML Validator](https://www.freeformatter.com/html-validator.html)
+    - I again used direct input one page at a time to check for errors.
 
 ***
 
