@@ -1,5 +1,7 @@
 # Portfolio Project 1 - HTML/CSS Essentials
 
+![Screenshot 2022-02-28 at 19 44 14](https://user-images.githubusercontent.com/96961963/156048267-73389972-f130-4602-9860-609351a181d3.png)
+
 ## Author
 
 SUZANNE ASHFORD
