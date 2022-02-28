@@ -109,6 +109,7 @@ I want the menu to have a contemporary feel; to achieve this I put left and righ
 I drafted a layout of my project using [Balsamiq Wireframes](https://balsamiq.com/wireframes/).  I initially designed all content to be on the same page which is reflected in my original mock-up shown below. When doing the project I realised that due to the amount of content I was putting in this would become a bit too cumbersome, and so changed my layout whilst doing the project so that each section will have its own page.
 
 ![Screenshot 2022-02-28 at 12 03 10](https://user-images.githubusercontent.com/96961963/155996138-09f9f9ae-7bc8-4c01-93bc-81680fe81c75.png)
+
 ![Screenshot 2022-02-28 at 12 03 35](https://user-images.githubusercontent.com/96961963/155996155-95a67534-169f-48c4-98a2-d618362baf07.png)
 
 ### Features
@@ -117,26 +118,35 @@ I drafted a layout of my project using [Balsamiq Wireframes](https://balsamiq.co
 
 I used the Cinzel font to add to the professional feel of the site. I wanted an image behind the text to aid visual impact and chose a neutral image containing part of a flower. As I referenced plants later on in my site the use of a flower was not out of context. I want the text to stay to the left so that it did not overlay the flower which could cause some of the letters to become lost in the image. I had originally started with a different image but the colours were too dark and made the header too prominent detracting from the overall look I was going for.
 
+![Screenshot 2022-02-28 at 14 04 53](https://user-images.githubusercontent.com/96961963/155996484-6bd0ea62-2b1d-45ba-b2bb-1ba2b31120da.png)
 
 #### Footer
 
 I followed much the same process for the footer that I did for the header, though made the text a smaller font so as to be clear this was a less important than the header and content of the page. I also added a LinkedIn link by the way of the LinkedIn title image.
-ADD SCREEN GRAB OF FOOTER.
+
+![Screenshot 2022-02-28 at 14 05 47](https://user-images.githubusercontent.com/96961963/155996625-fc2d2817-7c48-44d4-b182-ef9c8a37d145.png)
 
 #### Home page
 
 I wanted to keep this simple, with an image that is relevant to the title of the site. I added the zoom-in of the image and the text fade-in to make it more engaging.
-ADD SCREEN GRAB OF HOME PAGE
+
+![Screenshot 2022-02-28 at 14 07 01](https://user-images.githubusercontent.com/96961963/155996798-9c4367b8-4c55-41ec-acaf-3c15fe171cd8.png)
 
 #### Setup and Course and Community pages
 
 As each of these three pages have three sections to them, either by the way of paragraphs or videos, I wanted it to be clear to the user the definition between each one.  I used a grey background to each div to compliment the cream and same coloured font for all of the text.  I had to slightly adapt this on the Community page as I didn't have three headers and three blocks of text.  I was conscious I had been quite wordy on the other two pages so subsituted two paragraph sections for two videos to add some variety.  I chose to have each div on the Set-up and the Course pages to lay next to each other on bigger screen and stacked on top of each other on smaller screens so they would be readable.  The Community page was a little different so had the video side by side or stacked on top of each other but always under the div containing the text.  I felt this looked better than having a video each side of the text section when the screen was bigger.
-AND SCREEN GRAB OF SET UP PAGE  AND THE DIFFERENCE ON THE COMMUNITY PAGE.
+
+![Screenshot 2022-02-28 at 14 08 08](https://user-images.githubusercontent.com/96961963/155996964-9cb7b0b2-dda2-4707-87bb-1ba4a126509f.png)
+
+![Screenshot 2022-02-28 at 14 08 27](https://user-images.githubusercontent.com/96961963/155997019-be14a2fd-2453-4bf9-a866-455a51456c0e.png)
+
+![Screenshot 2022-02-28 at 14 09 14](https://user-images.githubusercontent.com/96961963/155997112-70664a07-42ec-49f1-a014-f21dde59ea82.png)
 
 #### Contact page
 
 I liked the idea of having one main image which both incorporated mindfulness / self-care and computing, and I think this image had it all!  Again it's fairly muted in terms of the vibrancy of the colours, and it leads nicely onto the contact form which I kept very simple but still functional.  
-ADD SCREEN GRAB OF CONTACT PAGE
+
+![Screenshot 2022-02-28 at 14 09 40](https://user-images.githubusercontent.com/96961963/155997169-318569d6-9204-4925-b4ff-dc73a4c63820.png)
 
 #### 404 Error page
 
@@ -218,7 +228,8 @@ I have inputted various formats of data into the form on the contact page, and t
 I've tested all the anchor elements for external links and ensured they open in a new browser tab.  I've also tested the internal anchor elements and ensured they go to the relevant pages within the site.
 I've manually tested the user requirements as outlined in [Overall User Experience](#Overall-User-Experience).
 I've ran my site through Lighthouse's audit [Web Dev](https://web.dev.measure/) and the results are below:
-ADD SCREEN GRAB OF RESULT
+
+![Screenshot 2022-02-28 at 14 13 00](https://user-images.githubusercontent.com/96961963/155997673-36595b7c-0403-4ce2-a0c2-6306487cb0b4.png)
 
 ### Bugs
 
@@ -247,10 +258,13 @@ ADD SCREEN GRAB OF RESULT
 ### Accessibility
 
 I ran my site through [Web Accessibility](https://www.webaccessibility.com/) and here are the results, showing all okay:
-ADD SCREEN GRAB OF RESULTS
+
+![Screenshot 2022-02-28 at 14 15 05](https://user-images.githubusercontent.com/96961963/155997972-6edd807c-93e1-4b35-ad38-e9617fc7121c.png)
 
 I also ran it through [Wave](https://wave.webaim.org/) Web accessibility evaluation tool and the results are as follows, showing all okay:
-ADD SCREEN GRAB OF RESULTS
+
+![Screenshot 2022-02-28 at 14 16 26](https://user-images.githubusercontent.com/96961963/155998172-ad46ea10-9ccb-4a57-8872-30ddf9c8b51c.png)
+
 ***
 
 ## Deployment
