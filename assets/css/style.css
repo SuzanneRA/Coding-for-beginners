@@ -340,7 +340,7 @@ footer {
     background: url('../images/meditate.webp') no-repeat center;
     background-size: cover;
     height: 250px;
-    margin-top: 100px;
+    margin-top: 10px;
 }
 
 #contact-form {
@@ -609,7 +609,7 @@ form textarea {
     }
 
     /* contact.html */
-    .contact-image {
+    #contact-image {
         height: 500px;
     }
 
@@ -708,11 +708,11 @@ form textarea {
     /* contact.html */
 
     #contactimage-container {
-        height: 1000px;
+        height: 1200px;
     }
 
-    .contact-image {
-        height: 1000px;
+    #contact-image {
+        height: 1200px;
     }
 
     #contact-form {

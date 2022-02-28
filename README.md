@@ -172,12 +172,14 @@ This resulted in 4 errors
 
 #### [HTML Validator with Free Formatter](https://www.freeformatter.com/html-validator.html)
 
-##### On index.html 2 errors found
+##### On index.html 3 errors found
 
 1. End tag “section” seen, but there were open elements. From line 69, column 5 to line 69, column 14
    Code Extract: /div>↩ </section>↩
 2. Unclosed element “div”. From line 57, column 9 to line 57, column 39
       Code Extract: div id of frontimage-container
+3. Section lacks heading. Consider using h2 - h6 elements to add identifying headings to all sections. From line56, column 5 to line 56, column 36
+   Code Extract: r --> < section class="main-container" >
       
 ##### On setup.html; no errors found
 
@@ -238,6 +240,7 @@ I've ran my site through Lighthouse's audit [Web Dev](https://web.dev/measure/?g
 
 1. added missing end bracket for div
 2. deleted obsolete opacity from fade-text id
+3. changed section to div
 
 #### Resolved bugs for community.html
 
@@ -253,7 +256,7 @@ I've ran my site through Lighthouse's audit [Web Dev](https://web.dev/measure/?g
 
 #### Outstanding bugs
 
-1. on index.html advisory error for including a heading on section element; I do not wish for there to be a heading at this point as this will distract from the user experience and overall look of the site
+None
 
 ### Accessibility
 
